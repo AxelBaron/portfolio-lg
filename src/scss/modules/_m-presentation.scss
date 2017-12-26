@@ -1,0 +1,50 @@
+// _m-my-module.scss
+
+.presentation {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  background: url('../img/polygon.png') no-repeat top left/cover;
+  color: white;
+
+  &__name {
+    position: relative;
+    font-family: font('secondary');
+    font-weight: 100;
+    letter-spacing: 6px;
+    @include font-size(110px);
+    line-height: 90%;
+    text-transform: uppercase;
+    color: color('background');
+    cursor: pointer;
+    animation: opacity 5s;
+    opacity: 0.85;
+    margin: 0;
+
+    img {
+      width: 700px;
+    }
+  }
+
+  &__job {
+    animation: opacity 5s;
+    opacity: 0.85;
+    font-family: font('tertiary');
+    @include font-size(29px);
+    font-weight: 400;
+    margin: 0 0 10px;;
+    letter-spacing: 0.2em;
+  }
+}
+
+@keyframes opacity {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

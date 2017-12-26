@@ -1,0 +1,39 @@
+/*
+* @Author: Stup.C.R.O.U
+* @Date:   2017-11-15 21:31:40
+* @Last Modified by:   LolitaG
+* @Last Modified time: 2017-11-16 03:05:12
+*/
+.social{
+	animation : opacity 5s;
+	margin-bottom: 20px;
+	
+	.social__item{
+		display: inline-block;
+		width: 45px;
+		height: 45px;
+		margin: 0 5px;
+		border-radius: 100%;
+		border: 1px solid #fff;
+		font-family: font("primary");
+
+		color: #fff;
+		line-height: 45px;
+		text-align: center;
+		text-transform: uppercase;
+		text-decoration: none;
+
+		opacity: 0.5;
+		transition: 0.3s;
+
+		&:hover{
+			opacity: 1;
+		}	
+	}
+}
+
+@keyframes opacity {
+	0%{ opacity: 0; }
+	99%{ opacity: 0; }
+	100%{ opacity: 0.5; }
+}

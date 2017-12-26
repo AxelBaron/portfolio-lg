@@ -1,0 +1,71 @@
+// _m-about.scss
+
+.about {
+  display: flex;
+  flex-wrap: wrap;
+  background: url(../img/bg-bottom.svg) center bottom -50px no-repeat,
+  url(../img/4017.jpg) no-repeat top center /100%;
+  background-size: 150%;
+
+  @include respond-to('medium') {
+    height: 100vh;
+  }
+
+  &__content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    max-width: 800px;
+    margin: -80px auto 0;
+
+    @include respond-to('medium') {
+      flex-direction: row;
+    }
+
+    @include respond-to('large') {
+
+    }
+  }
+
+  &__img {
+    align-self: center;
+    @include size(200px);
+    border-radius: 100%;
+    margin: 0 0 35px 0;
+    background: #1E1E1E url(../img/eye.gif) center/cover;
+
+    @include respond-to('medium') {
+      @include size(150px);
+      margin: 0 30px 0 30px;
+    }
+
+    @include respond-to('large') {
+      @include size(200px);
+      margin: 0 30px 0 0;
+    }
+  }
+
+  &__text {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: font('primary');
+
+    p {
+      margin-top: 0;
+      padding: 0 20px;
+      @include font-size(14px);
+
+      @include respond-to('medium') {
+        padding: 0 20px 0 0;
+      }
+
+      @include respond-to('large') {
+        padding: 0;
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+// _m-shuffle.scss
+
+.shuffle {
+  position: relative;
+
+  &__slash {
+    position: absolute;
+    top: 0;
+    right: -30px;
+    display: none;
+    color: red;
+  }
+
+  &__dot {
+    position: absolute;
+    top: 0;
+    right: -13px;
+    display: inline;
+    color: transparent;
+  }
+}
