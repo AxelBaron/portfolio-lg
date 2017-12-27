@@ -34,7 +34,7 @@
     @include size(200px);
     border-radius: 100%;
     margin: 0 0 35px 0;
-    background: #1E1E1E url(../img/eye.gif) center/cover;
+    background: #1E1E1E url(../img/photo.jpg) top left/119%;
 
     @include respond-to('medium') {
       @include size(150px);

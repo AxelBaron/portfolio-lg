@@ -34,44 +34,89 @@
 
     <section class="projects">
         <div class="projects__inside">
-            <h2 class="projects__title title">Quelques projets</h2>
+            <h2 class="projects__title title" data-aos="fade">Quelques projets</h2>
             <div class="projects__content">
                 
                 <ul class="round">
-                    <li>
+                    <li data-aos="fade">
                         <div class="round__item round__img-1">
                             <div class="round__info-wrap">
                                 <div class="round__info">
                                     <div class="round__info-front round__img-1"></div>
                                     <div class="round__info-back">
-                                        <h3>Titre</h3>
-                                        <p>Blabla <a href="">view on dribble</a></p>
+                                        <h3><a href="http://chibi-akihabara.com/" target="_blank" title="site chibi akihabara">Chibi<br /> Akihabara</a></h3>
+                                        <h4>E-Commerce</h4>
+                                        <p>Intégration web Prestashop <a href="https://www.behance.net/gallery/40301139/Chibi-Akihabara-E-commerce" title="behance chibi akihabara">voir sur behance</a></p>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </li>
-                    <li>
-                        <div class="round-item round-img-2">
-                            <div class="round-info-wrap">
-                                <div class="round-info">
-                                    <div class="round-info-front round-img-2"></div>
-                                    <div class="round-info-back">
-                                        <h3>Titre</h3>
-                                        <p>Blabla <a href="">view on dribble</a></p>
+                    <li data-aos="fade">
+                        <div class="round__item round__img-2">
+                            <div class="round__info-wrap">
+                                <div class="round__info">
+                                    <div class="round__info-front round__img-2"></div>
+                                    <div class="round__info-back">
+                                        <h3><a href="https://www.kill-tilt.fr/" title="site kill tilt" target="_blank">Kill Tilt &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></h3>
+                                        <h4>Site communautaire</h4>
+                                        <p>Inté / dev. back Wordpress <a href="https://www.behance.net/gallery/40336865/Kill-Tilt-Site-Communautaire" title="voir sur behance" target="_blank">voir sur behance</a></p>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </li>
-                    <li>
-                        <div class="round-item round-img-3">
-                            <div class="round-info-wrap">
-                                <div class="round-info">
-                                    <div class="round-info-front round-img-3"></div>
-                                    <div class="round-info-back">
-                                        <h3>Titre</h3>
-                                        <p>Blabla <a href="">view on dribble</a></p>
+                    <li data-aos="fade">
+                        <div class="round__item round__img-3">
+                            <div class="round__info-wrap">
+                                <div class="round__info">
+                                    <div class="round__info-front round__img-3"></div>
+                                    <div class="round__info-back">
+                                        <h3><a href="https://www.behance.net/gallery/40370675/Village-Map-Place-de-march" title="voir sur behance" target="_blank">Village Map &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></h3>
+                                        <h4>Place de marché</h4>
+                                        <p>Inté / dev. front <a href="https://www.behance.net/gallery/40370675/Village-Map-Place-de-march" title="voir sur behance" target="_blank">voir sur behance</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li data-aos="fade">
+                        <div class="round__item round__img-4">
+                            <div class="round__info-wrap">
+                                <div class="round__info">
+                                    <div class="round__info-front round__img-4"></div>
+                                    <div class="round__info-back">
+                                        <h3><a href="http://lolitagrasset.com/RioDelVin/" target="_blank" title="site rio del vin">Rio del Vin &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></h3>
+                                        <h4>Site vitrine</h4>
+                                        <p>Intégration web <br />Dev. front <a href="http://lolitagrasset.com/RioDelVin/" target="_blank">voir le site</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li data-aos="fade">
+                        <div class="round__item round__img-5">
+                            <div class="round__info-wrap">
+                                <div class="round__info">
+                                    <div class="round__info-front round__img-5"></div>
+                                    <div class="round__info-back">
+                                        <h3><a href="http://anadore.fr/" title="site anadore" target="_blank">Anadore &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></h3>
+                                        <h4>Site d'agence</h4>
+                                        <p>Intégration web <br /> Dev. front <a href="https://www.behance.net/gallery/40341275/Anadore-Site-agence" title="voir sur behance" target="_blank">voir sur behance</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li data-aos="fade">
+                        <div class="round__item round__img-6">
+                            <div class="round__info-wrap">
+                                <div class="round__info">
+                                    <div class="round__info-front round__img-6"></div>
+                                    <div class="round__info-back">
+                                        <h3><a href="http://lescurieusesexpositions.fr/" target="_blank">Curieuses expositions</a></h3>
+                                        <h4>Site d'événements</h4>
+                                        <p>Inté / dev. back Wordpress <a href="http://lescurieusesexpositions.fr/" target="_blank">voir le site</a></p>
                                     </div>
                                 </div>
                             </div>
@@ -80,32 +125,7 @@
                 </ul>
 
 
-                <div class="projects__item" data-aos="zoom-in">
-                    <a target="_blank" href="https://www.behance.net/gallery/40301139/Chibi-Akihabara-E-commerce"
-                       style="background: #F5F5F5 url('../img/chibi.png') no-repeat center" alt="chibi" class="projects__img"></a>
-                </div>
-                <div class="projects__item" data-aos="zoom-in">
-                    <a href="https://www.behance.net/gallery/40336865/Kill-Tilt-Site-Communautaire"
-                       style="background: #FFFFFF url(../img/KT.png) no-repeat center" alt="kt" class="projects__img"></a>
-                </div>
-                <div class="projects__item" data-aos="zoom-in">
-                    <a target="_blank" href="https://www.behance.net/gallery/40370675/Village-Map-Place-de-march"
-                       style="background:#107B89 url(../img/villagemap.png) no-repeat center" alt="village map"
-                       class="projects__img"></a>
-                </div>
-                <div class="projects__item" data-aos="zoom-in">
-                    <a target="_blank" href="http://lolitagrasset.com/RioDelVin/"
-                       style="background:#FFFFFF url(../img/riodelvin.png) no-repeat center" alt="rio del vin" class="projects__img"></a>
-                </div>
-                <div class="projects__item" data-aos="zoom-in">
-                    <a target="_blank" href="https://www.behance.net/gallery/40341275/Anadore-Site-agence"
-                       style="background:#084376 url(../img/anadore.png) no-repeat center " alt="anadore" class="projects__img"></a>
-                </div>
-                <div class="projects__item" data-aos="zoom-in">
-                    <a target="_blank" href="https://www.lescurieusesexpositions.fr"
-                       style="background:#FFFFFF url(../img/curieusesexpositions.png) no-repeat center" alt="curieuses expos"
-                       class="projects__img"></a>
-                </div>
+                
             </div><!-- /.projects__-->
         </div>
     </section>
@@ -114,15 +134,15 @@
         <div class="about__content">
             <div class="about__img" data-aos="fade"></div>
             <div class="about__text" data-aos="fade">
-                <div class="title">A propos</div>
-                <p>
+                <div class="title" data-aos="fade">A propos</div>
+                <p data-aos="fade">
                     Je m'appelle Lolita Grasset, j'ai 24 ans et je suis
                     actuellement à la recherche d'un CDI en tant qu'intégratrice
                     web/développeuse front à Paris. Disponible dès à présent,
                     si mon profil vous intéresse n'hésitez pas à consulter mon CV
                     et me contacter.
                 </p>
-                <p>
+                <p data-aos="fade">
                     J'ai validé cette année ma formation en alternance de Développeuse
                     Multimédia où je travaillais en parallèle au sein de l'agance Anadore
                     comme intégratrice web. Fort de cette expérience, je souhaite persévérer
