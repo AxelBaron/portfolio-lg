@@ -14,7 +14,7 @@
     content: "";
     position: absolute;
     z-index: 0;
-    top: -15px;
+    top: -14px;
     right: 0;
     display: block;
     width: 65%;
@@ -22,7 +22,7 @@
     background: url(../img/mid.png) no-repeat left center /cover;
 
     .about & {
-      top: -35px;
+      top: -34px;
     }
   }
 

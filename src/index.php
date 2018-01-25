@@ -40,11 +40,11 @@
 
     <section class="projects">
         <div class="projects__inside">
-            <h2 class="projects__title title" data-aos="fade">Quelques projets</h2>
+            <h2 class="projects__title title" data-aos="fade-up">Quelques projets</h2>
             <div class="projects__content">
                 
                 <div class="losanges">
-                  <div class="losanges__inside" data-aos="fade">
+                  <div class="losanges__inside" data-aos="fade-up">
                     <div class="losange-container">
                         <div class="losange">
                           <div class="losange__inside riodelvin">
@@ -82,7 +82,7 @@
                       </div>
                     </div>
                   </div>
-                  <div class="losanges__inside" data-aos="fade">
+                  <div class="losanges__inside" data-aos="fade-up">
                     <div class="losange-container">
                       <div class="losange">
                         <div class="losange__inside villagemap">
@@ -132,7 +132,7 @@
                       </div>
                     </div>
                   </div>
-                  <div class="losanges__inside" data-aos="fade">
+                  <div class="losanges__inside" data-aos="fade-up">
                     <div class="losange-container">
                       <div class="losange">
                         <div class="losange__inside curieusesexpositions">
@@ -169,21 +169,21 @@
 
     <section class="about">
         <div class="about__content">
-            <div class="about__img" data-aos="fade">
+            <div class="about__img" data-aos="fade-up">
               <div class="image-element">
                 <img src="/img/photo.jpg" alt="">
               </div>
             </div>
-            <div class="about__text" data-aos="fade">
-                <div class="title" data-aos="fade">A propos</div>
-                <p data-aos="fade">
+            <div class="about__text">
+                <div class="title" data-aos="fade-up">A propos</div>
+                <p data-aos="fade-up">
                     Je m'appelle Lolita Grasset, j'ai 24 ans et je suis
                     actuellement à la recherche d'un CDI en tant qu'intégratrice
                     web/développeuse front à Paris. Disponible dès à présent,
                     si mon profil vous intéresse n'hésitez pas à consulter mon CV
                     et me contacter.
                 </p>
-                <p data-aos="fade">
+                <p data-aos="fade-up">
                     J'ai validé cette année ma formation en alternance de Développeuse
                     Multimédia où je travaillais en parallèle au sein de l'agance Anadore
                     comme intégratrice web. Fort de cette expérience, je souhaite persévérer
