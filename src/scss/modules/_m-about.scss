@@ -32,9 +32,25 @@
   &__img {
     align-self: center;
     @include size(200px);
-    border-radius: 100%;
     margin: 0 0 35px 0;
-    background: #1E1E1E url(../img/photo.jpg) top left/119%;
+    .image-element{
+      width: 90%;
+      height: 90%;
+      transform: rotate(45deg);
+      overflow: hidden;
+      position: relative;
+      img{
+        width: 270px;
+        height: 270px;
+        max-width: initial;
+        transform: rotate(-20deg);
+        position: absolute;
+        top: -36px;
+        left: -20px;
+
+      }
+     
+    }
 
     @include respond-to('medium') {
       @include size(150px);
