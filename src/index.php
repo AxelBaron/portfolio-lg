@@ -44,7 +44,7 @@
             <div class="projects__content">
                 
                 <div class="losanges">
-                  <div class="losanges__inside">
+                  <div class="losanges__inside" data-aos="fade">
                     <div class="losange-container">
                         <div class="losange">
                           <div class="losange__inside riodelvin">
@@ -82,7 +82,7 @@
                       </div>
                     </div>
                   </div>
-                  <div class="losanges__inside">
+                  <div class="losanges__inside" data-aos="fade">
                     <div class="losange-container">
                       <div class="losange">
                         <div class="losange__inside villagemap">
@@ -132,7 +132,7 @@
                       </div>
                     </div>
                   </div>
-                  <div class="losanges__inside">
+                  <div class="losanges__inside" data-aos="fade">
                     <div class="losange-container">
                       <div class="losange">
                         <div class="losange__inside curieusesexpositions">
