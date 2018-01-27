@@ -49,7 +49,7 @@
                         <div class="losange">
                           <div class="losange__inside riodelvin">
                             <div class="losange__inside__side losange__inside__side--face riodelvin">
-                              <img src="http://localhost/img/riodelvin.png" alt="" class="image">
+                              <img src="img/riodelvin.png" alt="" class="image">
                             </div>
                             <div class="losange__inside__side losange__inside__side--back">
                             </div>
@@ -87,7 +87,7 @@
                       <div class="losange">
                         <div class="losange__inside villagemap">
                           <div class="losange__inside__side losange__inside__side--face villagemap">
-                            <img src="http://localhost/img/villagemap.png" alt="" class="image">
+                            <img src="img/villagemap.png" alt="" class="image">
                           </div>
                           <div class="losange__inside__side losange__inside__side--back">
                           </div>
@@ -103,7 +103,7 @@
                       <div class="losange">
                         <div class="losange__inside chibiakihabara">
                           <div class="losange__inside__side losange__inside__side--face chibiakihabara">
-                            <img src="http://localhost/img/chibi.png" alt="" class="image">
+                            <img src="img/chibi.png" alt="" class="image">
                           </div>
                           <div class="losange__inside__side losange__inside__side--back">
                           </div>
@@ -119,7 +119,7 @@
                       <div class="losange">
                         <div class="losange__inside anadore">
                           <div class="losange__inside__side losange__inside__side--face anadore">
-                            <img src="http://localhost/img/anadore.png" alt="" class="image">
+                            <img src="img/anadore.png" alt="" class="image">
                           </div>
                           <div class="losange__inside__side losange__inside__side--back">
                           </div>
@@ -137,7 +137,7 @@
                       <div class="losange">
                         <div class="losange__inside curieusesexpositions">
                           <div class="losange__inside__side losange__inside__side--face curieusesexpositions">
-                            <img src="http://localhost/img/curieusesexpositions.png" alt="" class="image">
+                            <img src="img/curieusesexpositions.png" alt="" class="image">
                           </div>
                           <div class="losange__inside__side losange__inside__side--back">
                           </div>
