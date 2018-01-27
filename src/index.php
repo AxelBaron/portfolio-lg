@@ -67,7 +67,7 @@
                       <div class="losange">
                         <div class="losange__inside killtilt">
                           <div class="losange__inside__side losange__inside__side--face killtilt">
-                            <img src="http://localhost/img/kt.png" alt="" class="image">
+                            <img src="img/kt.png" alt="" class="image">
                           </div>
                           <div class="losange__inside__side losange__inside__side--back">
                           </div>
