@@ -9,36 +9,44 @@
     <link rel="stylesheet" href="css/main.css">
 
     
-<link href="https://fonts.googleapis.com/css?family=Handlee|Quicksand" rel="stylesheet">
+    <script src="https://use.fontawesome.com/1244fbc7a8.js"></script>
 
+<link href="https://fonts.googleapis.com/css?family=Handlee|Quicksand" rel="stylesheet">
+<!-- <style>
+#scroll {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+}
+</style> -->
 
 
 </head>
 <body>
 
-<div class="site-container">
-    <div class="presentation">
-        <div class="social">
-            <a href="" class="social__item" target="_blank">CV</a>
-            <a href="" class="social__item" target="_blank">@</a>
-        </div>
+<div class="site-container" id="scroll">
+    <div class="presentation page" id="one">
+        
         <h1 class="presentation__name shuffle shuffle-one">
-            <span class="shuffle__anim"></span>
+            <span class="shuffle__anim">&nbsp;</span>
             <span class="shuffle__slash">|</span>
         </h1>
         <h2 class="presentation__job shuffle shuffle-two">
-            <span class="shuffle__anim"></span>
-            <span class="shuffle__dot">.</span>
+            <span class="shuffle__anim">&nbsp;</span>
             <span class="shuffle__slash">|</span>
         </h2>
-
+        <div class="social">
+            <a href="" class="social__item" target="_blank"><i class="fa fa-id-card" aria-hidden="true"></i></a>
+            <a href="" class="social__item" target="_blank"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+        </div>
         <div class="scroll">
             <p>Scroll</p>
             <div class="scroll__anim"></div>
         </div>
     </div><!-- /.presentation-->
 
-    <section class="projects">
+    <section class="projects page" id="two">
         <div class="projects__inside">
             <h2 class="projects__title title" data-aos="fade-up">Quelques projets</h2>
             <div class="projects__content">
@@ -167,7 +175,7 @@
         </div>
     </section>
 
-    <section class="about">
+    <section class="about page" id="three">
         <div class="about__content">
             <div class="about__img" data-aos="fade-up">
               <div class="image-element">
@@ -175,7 +183,7 @@
               </div>
             </div>
             <div class="about__text">
-                <div class="title" data-aos="fade-up">A propos</div>
+                <h2 class="about__title title" data-aos="fade-up">A propos</h2>
                 <p data-aos="fade-up">
                     Je m'appelle Lolita Grasset, j'ai 24 ans et je suis
                     actuellement à la recherche d'un CDI en tant qu'intégratrice
@@ -196,5 +204,99 @@
 
 <?php require "inc/cdn-scripts.php"; ?>
 <script src="js/bundle.js"></script>
+<!-- <script>
+  /* See related post at
+https://codepen.io/Javarome/post/full-page-sliding
+*/
+function ScrollHandler(pageId) {
+  var page = document.getElementById(pageId);
+  var pageStart = page.offsetTop;
+  var pageJump = false;
+  var viewStart;
+  var duration = 1000;
+  var scrolled = document.getElementById("scroll");
+
+  function scrollToPage() {
+    pageJump = true;
+
+    // Calculate how far to scroll
+    var startLocation = viewStart;
+    var endLocation = pageStart;
+    var distance = endLocation - startLocation;
+
+    var runAnimation;
+
+    // Set the animation variables to 0/undefined.
+    var timeLapsed = 0;
+    var percentage, position;
+
+    var easing = function(progress) {
+      return progress < 0.5
+        ? 4 * progress * progress * progress
+        : (progress - 1) * (2 * progress - 2) * (2 * progress - 2) + 1; // acceleration until halfway, then deceleration
+    };
+
+    function stopAnimationIfRequired(pos) {
+      if (pos == endLocation) {
+        cancelAnimationFrame(runAnimation);
+        setTimeout(function() {
+          pageJump = false;
+        }, 500);
+      }
+    }
+
+    var animate = function() {
+      timeLapsed += 16;
+      percentage = timeLapsed / duration;
+      if (percentage > 1) {
+        percentage = 1;
+        position = endLocation;
+      } else {
+        position = startLocation + distance * easing(percentage);
+      }
+      scrolled.scrollTop = position;
+      runAnimation = requestAnimationFrame(animate);
+      stopAnimationIfRequired(position);
+      console.log("position=" + scrolled.scrollTop + "(" + percentage + ")");
+    };
+    // Loop the animation function
+    runAnimation = requestAnimationFrame(animate);
+  }
+
+  window.addEventListener("wheel", function(event) {
+    viewStart = scrolled.scrollTop;
+    if (!pageJump) {
+      var pageHeight = page.scrollHeight;
+      var pageStopPortion = pageHeight / 2;
+      var viewHeight = window.innerHeight;
+
+      var viewEnd = viewStart + viewHeight;
+      var pageStartPart = viewEnd - pageStart;
+      var pageEndPart = pageStart + pageHeight - viewStart;
+
+      var canJumpDown = pageStartPart >= 0;
+      var stopJumpDown = pageStartPart > pageStopPortion;
+
+      var canJumpUp = pageEndPart >= 0;
+      var stopJumpUp = pageEndPart > pageStopPortion;
+
+      var scrollingForward = event.deltaY > 0;
+      if (
+        (scrollingForward && canJumpDown && !stopJumpDown) ||
+        (!scrollingForward && canJumpUp && !stopJumpUp)
+      ) {
+        event.preventDefault();
+        scrollToPage();
+      }
+      false; //
+    } else {
+      event.preventDefault();
+    }
+  });
+}
+new ScrollHandler("one");
+new ScrollHandler("two");
+new ScrollHandler("three");
+</script> -->
 </body>
 </html>

@@ -8,8 +8,8 @@
     var app = {
         init: function () {
             app.copyright();
-            app.shuffle($(".shuffle-one"), 'Lolita Grasset', '');
-            app.shuffle($(".shuffle-two"), 'Intégratrice web, Dev front', 1800);
+            app.shuffle($(".shuffle-one"), 'Lolita Grasset', 500);
+            app.shuffle($(".shuffle-two"), 'Intégratrice web, Dev front', 2300);
             AOS.init({
                 offset: 200,
                 duration: 600,
@@ -39,9 +39,7 @@
                     "callback": function () {
                         setTimeout(function () {
                             shuffleSlash.css("color", "transparent");
-                            shuffleDot.css("display", "inline");
-                            shuffleDot.css("color", "red");
-                        }, 600);
+                        }, 500);
                     }
                 });
             }, delay);

@@ -5,35 +5,32 @@
 * @Last Modified time: 2017-11-16 03:05:12
 */
 .social{
-	animation : opacity 5s;
-	margin-bottom: 20px;
+	animation-name: apparition;
+	animation-duration: 1s;
+	animation-delay: 4s;
+	margin-top: 20px;
+	animation-fill-mode: forwards;
+	opacity: 0;
 	
 	.social__item{
 		display: inline-block;
-		width: 45px;
-		height: 45px;
 		margin: 0 5px;
-		border-radius: 100%;
-		border: 1px solid #fff;
-		font-family: font("primary");
-
+		font-size: 40px;
 		color: #fff;
 		line-height: 45px;
 		text-align: center;
-		text-transform: uppercase;
 		text-decoration: none;
-
-		opacity: 0.5;
-		transition: 0.3s;
-
+		opacity: 0.8;
+		transform: scale(1);
+		transition: all 0.5s;
 		&:hover{
 			opacity: 1;
-		}	
+			transform: scale(1.2);
+		}
 	}
 }
 
-@keyframes opacity {
+@keyframes apparition {
 	0%{ opacity: 0; }
-	99%{ opacity: 0; }
-	100%{ opacity: 0.5; }
+	100%{ opacity: 0.8; }
 }

@@ -6,16 +6,17 @@
   &__slash {
     position: absolute;
     top: 0;
-    right: -30px;
+    right: -24px;
     display: none;
-    color: red;
+    color: #AC0E20;
+    animation-name: clignotement;
+    animation-iteration-count: infinite;
+    animation-duration: 1.2s;
   }
+}
 
-  &__dot {
-    position: absolute;
-    top: 0;
-    right: -13px;
-    display: inline;
-    color: transparent;
-  }
+@keyframes clignotement{
+  0%{opacity: 0;}
+  50%{opacity: 1;}
+  100%{opacity: 0;}
 }

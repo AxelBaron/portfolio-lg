@@ -5,7 +5,7 @@
   @include font-size(40px);
   text-transform: uppercase;
   margin: 0 0 20px 0;
-  padding-bottom: 20px;
+  padding-bottom: 5px;
   border-bottom: 2px solid color('foreground');
   font-weight: 400;
   position: relative;
@@ -14,27 +14,17 @@
     content: "";
     position: absolute;
     z-index: 0;
-    top: -14px;
+    bottom: 0;
     right: 0;
     display: block;
     width: 65%;
     height: 80px;
     background: url(../img/mid.png) no-repeat left center /cover;
 
-    .about & {
-      top: -34px;
-    }
   }
 
-  .about & {
-    padding: 0 20px;
+}
 
-    @include respond-to('medium') {
-      padding: 0;
-    }
-  }
-
-  &--center {
-    text-align: center;
-  }
+.projects__title{
+  padding-bottom: 10px;
 }
