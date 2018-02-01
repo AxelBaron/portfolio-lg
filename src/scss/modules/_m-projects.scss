@@ -7,7 +7,7 @@
   align-items: center;
 
   &__inside{
-    max-width: 800px;
+
     margin: 0 auto;
   }
 
@@ -17,23 +17,26 @@
     padding: 30px 0;
   }
 
+  .codepen{
+    background-color: lighten(#000000, 20%);
+  }
   .chibiakihabara{
-  background-color: #f5f5f5;
+    background-color: lighten(#f5f5f5, 3%);
   }
   .killtilt{
-    background-color: #ffffff;
+    background-color: lighten(#000000, 20%);
   }
   .villagemap{
-    background-color: #107B89;
+    background-color: lighten(#107B89, 5%);
   }
   .riodelvin{
     background-color: #ffffff;
   }
   .anadore{
-    background-color: #084376;
+    background-color: lighten(#084376, 5%);
   }
   .curieusesexpositions{
-    background-color: #ffffff;
+    background-color: lighten(#D94E66, 10%);
   }
 
 
@@ -42,14 +45,13 @@
       display: flex;
       flex-flow: row wrap;
       justify-content: center;
-      &:nth-child(2){
-        margin: -70px 0;
-      }
+      
     }
   }
 
   .losange-container{
     position: relative;
+    margin: -50px 30px;
   }
 
   .losange{
@@ -58,8 +60,8 @@
     transform: rotate(-45deg);
     
     &__inside{
-      width: 180px;
-      height: 180px;
+      width: 200px;
+      height: 200px;
       overflow: hidden;
       &__side{
         width: 84%;
@@ -77,7 +79,6 @@
         position: relative;
         transform: rotate3D(-1, 1, 0, 0deg);
           .image{
-            height: 90%;
             align-self: center;
           }
         }

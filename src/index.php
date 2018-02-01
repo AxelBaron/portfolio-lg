@@ -34,11 +34,29 @@
 
     <section class="projects page" id="two">
         <div class="projects__inside">
-            <h2 class="projects__title title" data-aos="fade-up">Quelques projets</h2>
+            <!-- <h2 class="projects__title title" data-aos="fade-up">Quelques projets</h2> -->
             <div class="projects__content">
                 
                 <div class="losanges">
                   <div class="losanges__inside" data-aos="fade-up">
+
+                    <div class="losange-container">
+                      <div class="losange">
+                        <div class="losange__inside chibiakihabara">
+                          <div class="losange__inside__side losange__inside__side--face chibiakihabara">
+                            <img src="img/chibi.png" alt="" class="image">
+                          </div>
+                          <div class="losange__inside__side losange__inside__side--back">
+                          </div>
+                        </div>
+                      </div>
+                      <div class="txt">
+                        <h3 class="two-lines"><a href="http://chibi-akihabara.com/" target="_blank" title="site chibi akihabara">Chibi<br> Akihabara</a></h3>
+                        <h4>E-Commerce</h4>
+                        <p>Intégration web Prestashop <span><a href="https://www.behance.net/gallery/40301139/Chibi-Akihabara-E-commerce" title="behance chibi akihabara" target="_blank">behance</a>/<a href="http://chibi-akihabara.com/" title="site chibi akihabara" target="_blank">site</a></span></p>
+                      </div>
+                    </div>
+
                     <div class="losange-container">
                         <div class="losange">
                           <div class="losange__inside riodelvin">
@@ -57,6 +75,10 @@
                           </p>
                       </div>
                     </div>
+
+                  </div>
+                  <div class="losanges__inside" data-aos="fade-up">
+
                     <div class="losange-container">
                       <div class="losange">
                         <div class="losange__inside killtilt">
@@ -75,8 +97,7 @@
                         </p>
                       </div>
                     </div>
-                  </div>
-                  <div class="losanges__inside" data-aos="fade-up">
+
                     <div class="losange-container">
                       <div class="losange">
                         <div class="losange__inside villagemap">
@@ -93,40 +114,7 @@
                         <p>Inté / dev. front <span><a href="https://www.behance.net/gallery/40370675/Village-Map-Place-de-march" title="voir sur behance" target="_blank">behance</a></span></p>
                       </div>
                     </div>
-                    <div class="losange-container">
-                      <div class="losange">
-                        <div class="losange__inside chibiakihabara">
-                          <div class="losange__inside__side losange__inside__side--face chibiakihabara">
-                            <img src="img/chibi.png" alt="" class="image">
-                          </div>
-                          <div class="losange__inside__side losange__inside__side--back">
-                          </div>
-                        </div>
-                      </div>
-                      <div class="txt">
-                        <h3 class="two-lines"><a href="http://chibi-akihabara.com/" target="_blank" title="site chibi akihabara">Chibi<br> Akihabara</a></h3>
-                        <h4>E-Commerce</h4>
-                        <p>Intégration web Prestashop <span><a href="https://www.behance.net/gallery/40301139/Chibi-Akihabara-E-commerce" title="behance chibi akihabara" target="_blank">behance</a>/<a href="http://chibi-akihabara.com/" title="site chibi akihabara" target="_blank">site</a></span></p>
-                      </div>
-                    </div>
-                    <div class="losange-container">
-                      <div class="losange">
-                        <div class="losange__inside anadore">
-                          <div class="losange__inside__side losange__inside__side--face anadore">
-                            <img src="img/anadore.png" alt="" class="image">
-                          </div>
-                          <div class="losange__inside__side losange__inside__side--back">
-                          </div>
-                        </div>
-                      </div>
-                      <div class="txt">
-                        <h3><a href="http://anadore.fr/" title="site anadore" target="_blank">Anadore</a></h3>
-                        <h4>Site d'agence</h4>
-                        <p>Intégration web <br> Dev. front <span><a href="https://www.behance.net/gallery/40341275/Anadore-Site-agence" title="voir sur behance" target="_blank">behance</a>/<a href="http://www.anadore.fr/" title="site anadore" target="_blank">site</a></span></p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="losanges__inside" data-aos="fade-up">
+
                     <div class="losange-container">
                       <div class="losange">
                         <div class="losange__inside curieusesexpositions">
@@ -143,17 +131,46 @@
                         <p>Inté / dev. back Wordpress <span><a href="http://lescurieusesexpositions.fr/" target="_blank">site</a></span></p>
                       </div>
                     </div>
-                    <div class="losange">
-                      <div class="losange__inside autres">
-                        <div class="losange__inside__side losange__inside__side--face autres">
-                          
-                        </div>
-                        <div class="losange__inside__side losange__inside__side--back">
-                          
+
+                  </div>
+                  <div class="losanges__inside" data-aos="fade-up">
+
+                    <div class="losange-container">
+                      <div class="losange">
+                        <div class="losange__inside anadore">
+                          <div class="losange__inside__side losange__inside__side--face anadore">
+                            <img src="img/anadore.png" alt="" class="image">
+                          </div>
+                          <div class="losange__inside__side losange__inside__side--back">
+                          </div>
                         </div>
                       </div>
+                      <div class="txt">
+                        <h3><a href="http://anadore.fr/" title="site anadore" target="_blank">Anadore</a></h3>
+                        <h4>Site d'agence</h4>
+                        <p>Intégration web <br> Dev. front <span><a href="https://www.behance.net/gallery/40341275/Anadore-Site-agence" title="voir sur behance" target="_blank">behance</a>/<a href="http://www.anadore.fr/" title="site anadore" target="_blank">site</a></span></p>
+                      </div>
                     </div>
-                  </div>
+
+                    <div class="losange-container">
+                        <div class="losange">
+                          <div class="losange__inside codepen">
+                            <div class="losange__inside__side losange__inside__side--face codepen">
+                              <img src="img/codepen.png" alt="" class="image">
+                            </div>
+                            <div class="losange__inside__side losange__inside__side--back">
+                            </div>
+                          </div>
+                        </div>
+                        <div class="txt">
+                          <h3 class="two-lines">Je  <br /> Codepen</h3>
+                          <h4>Quelques bouts de code</h4>
+                          <p>Par ici et par là
+                            <span><a href="https://codepen.io/Skyz0fraise/" target="_blank">sur codepen</a></span>
+                          </p>
+                      </div>
+                    </div>
+
                 </div>
 
                 
