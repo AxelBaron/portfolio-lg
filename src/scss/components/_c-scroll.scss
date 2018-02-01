@@ -1,7 +1,11 @@
 // _c-scroll.scss
 
 .scroll {
-  animation: opacity 5s;
+  animation-name: apparition--full;
+  animation-duration: 1s;
+  animation-delay: 5s;
+  animation-fill-mode: forwards;
+  opacity: 0;
   height: 60px;
 
   .presentation & {
@@ -39,4 +43,11 @@
     height: 0;
     opacity: 0;
   }
+ 
+
+} 
+
+@keyframes apparition--full {
+  0%{ opacity: 0; }
+  100%{ opacity: 1; }
 }

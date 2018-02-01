@@ -7,14 +7,14 @@
 .social{
 	animation-name: apparition;
 	animation-duration: 1s;
-	animation-delay: 4s;
+	animation-delay: 4.3s;
 	margin-top: 20px;
 	animation-fill-mode: forwards;
 	opacity: 0;
 	
 	.social__item{
 		display: inline-block;
-		margin: 0 5px;
+		margin: 0 14px;
 		font-size: 40px;
 		color: #fff;
 		line-height: 45px;
@@ -29,8 +29,8 @@
 		}
 	}
 }
-
 @keyframes apparition {
 	0%{ opacity: 0; }
 	100%{ opacity: 0.8; }
 }
+
