@@ -34,7 +34,7 @@
 
     <section class="projects page" id="two">
         <div class="projects__inside">
-            <!-- <h2 class="projects__title title" data-aos="fade-up">Quelques projets</h2> -->
+            <h2 class="projects__title" data-aos="fade-up">Quelques projets</h2>
             <div class="projects__content">
                 
                 <div class="losanges">
