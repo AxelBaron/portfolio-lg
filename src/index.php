@@ -32,9 +32,13 @@
         </div>
     </div><!-- /.presentation-->
 
+    <div class="side">
+      SIDE PART
+    </div>
+
     <section class="projects page" id="two">
         <div class="projects__inside">
-            <h2 class="projects__title" data-aos="fade-up">Quelques projets</h2>
+            <h2 class="projects__title" data-aos="fade-up"><span class="project__title__text">Projets</span></h2>
             <div class="projects__content">
                 
                 <div class="losanges">
@@ -163,8 +167,8 @@
                           </div>
                         </div>
                         <div class="txt">
-                          <h3 class="two-lines">Je  <br /> Codepen</h3>
-                          <h4>Quelques bouts de code</h4>
+                          <h3 class="two-lines">Je  <br /> bidouille</h3>
+                          <h4>des bouts de code</h4>
                           <p>Par ici et par là
                             <span><a href="https://codepen.io/Skyz0fraise/" target="_blank">sur codepen</a></span>
                           </p>

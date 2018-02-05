@@ -2,9 +2,12 @@
 
 .projects {
   height: 100vh;
-  background: url(../img/4017.jpg) no-repeat top center /cover, ;
+  background: url(../img/4017.jpg) no-repeat top center;
+  background-size: 150%;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
+
+  margin-left: 160px;
 
   &__inside{
 
@@ -14,7 +17,6 @@
   &__content {
     display: flex;
     flex-wrap: wrap;
-    padding: 30px 0;
   }
 
   .codepen{

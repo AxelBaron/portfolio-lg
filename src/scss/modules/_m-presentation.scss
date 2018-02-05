@@ -8,6 +8,9 @@
   height: 100vh;
   background: url('../img/polygon.png') no-repeat top left/cover;
   color: white;
+  
+  position: relative;
+  z-index: 2;
 
   &__name {
     position: relative;

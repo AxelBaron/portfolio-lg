@@ -4,8 +4,10 @@
   display: flex;
   flex-wrap: wrap;
   background: url(../img/bg-bottom.svg) center bottom -50px no-repeat,
-  url(../img/4017.jpg) no-repeat top center /100%;
+  url(../img/4017.jpg) no-repeat top center /cover;
   background-size: 150%;
+
+  margin-left: 160px;
 
   @include respond-to('medium') {
     height: 100vh;
