@@ -9,7 +9,7 @@
 	
 	z-index: 0; 
 
-	background: #DF0642 url('../img/side.jpg') left top no-repeat;
+	background: #DF0642 url('../img/side.jpg') top left no-repeat;
 	background-size: cover;
 
 	display: flex;
@@ -49,9 +49,19 @@
 				padding: 0 0.35em;
 				font-weight: bold;
 				line-height: 1.4;
-				transition: color 0.5s;
+				transition: all 0.5s;
 				transition-timing-function: cubic-bezier(0.2,1,0.3,1);
 				&::before{
+					content:"";
+					display: inline-block;
+					width: 10px;
+					height: 10px;
+					margin-right: 10px;
+					background-color: color('background');
+					transform: rotate(45deg);
+					transition: all 0.5s;
+				}
+				&::after{
 					content: "";
 					position: absolute;
 					z-index: -1;
@@ -65,6 +75,7 @@
 					transition: transform 0.5s;
 					transition-timing-function: cubic-bezier(0.2,1,0.3,1);
 				}
+				
 			}
 			&-label{
 				font-size: 0.9em;
@@ -72,7 +83,7 @@
 				transform: translate3d(-0.5,0,0);
 				transition: transform 0.5s, color 0.5s;
 				transition-timing-function: cubic-bezier(0.2,1,0.3,1);
-				&::before{
+				&::after{
 					content: "";
 					position: absolute;
 					z-index: -1;
@@ -87,20 +98,25 @@
 					transition-timing-function: cubic-bezier(0.2,1,0.3,1);
 				}
 			}
-			&-name::before,
-			&-label::before{
+			&-name::after,
+			&-label::after{
 				background: #fe628e;
 			}
 		}
 	}
 }
 
-.menu--adsila .menu__item .menu__item-name::before,
-.menu--adsila .menu__item .menu__item-label::before {
+.menu--adsila .menu__item .menu__item-name::after,
+.menu--adsila .menu__item .menu__item-label::after {
 	background: lighten(#831930, 10%);
 }
 
 /* Hover */
+
+.menu__item:hover .menu__item-name::before{
+	transform: rotate(225deg);
+	background-color: lighten(#831930, 0%);
+}
 
 .menu--adsila .menu__item:hover,
 .menu--adsila .menu__item:focus {
@@ -108,10 +124,10 @@
 }
 
 
-.menu--adsila .menu__item:hover .menu__item-name::before,
-.menu--adsila .menu__item:focus .menu__item-name::before,
-.menu--adsila .menu__item:hover .menu__item-label::before,
-.menu--adsila .menu__item:focus .menu__item-label::before {
+.menu--adsila .menu__item:hover .menu__item-name::after,
+.menu--adsila .menu__item:focus .menu__item-name::after,
+.menu--adsila .menu__item:hover .menu__item-label::after,
+.menu--adsila .menu__item:focus .menu__item-label::after {
 	transform: scale3d(1,1,1);
 }
 
@@ -120,8 +136,8 @@
 	transform: translate3d(0,0,0);
 }
 
-.menu--adsila .menu__item:hover .menu__item-label::before,
-.menu--adsila .menu__item:focus .menu__item-label::before {
+.menu--adsila .menu__item:hover .menu__item-label::after,
+.menu--adsila .menu__item:focus .menu__item-label::after {
 	transition-timing-function: ease;
 	transform-origin: 0% 50%;
 }
