@@ -40,7 +40,7 @@
         </a>
         <a href="#two" class="menu__item">
           <span class="menu__item-name">Projets</span>
-          <span class="menu__item-label">métro dodo</span>
+          <span class="menu__item-label">Métro dodo</span>
         </a>
         <a href="#three" class="menu__item">
           <span class="menu__item-name">A propos</span>
