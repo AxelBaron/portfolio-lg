@@ -79,6 +79,7 @@
 			}
 			&-label{
 				font-size: 0.9em;
+				font-style: italic;
 				letter-spacing: 0.05em;
 				transform: translate3d(-0.5,0,0);
 				transition: transform 0.5s, color 0.5s;
@@ -98,31 +99,27 @@
 					transition-timing-function: cubic-bezier(0.2,1,0.3,1);
 				}
 			}
-			&-name::after,
-			&-label::after{
-				background: #fe628e;
+			&-label::after,
+			&-name::after{
+				background: lighten(#831930, 10%);
+			}
+			&:hover .menu__item-name::before{
+				transform: rotate(225deg);
+				background-color: lighten(#831930, 0%);
 			}
 		}
 	}
 }
 
-.menu--adsila .menu__item .menu__item-name::after,
-.menu--adsila .menu__item .menu__item-label::after {
-	background: lighten(#831930, 10%);
-}
-
 /* Hover */
-
 .menu__item:hover .menu__item-name::before{
 	transform: rotate(225deg);
 	background-color: lighten(#831930, 0%);
 }
-
 .menu--adsila .menu__item:hover,
 .menu--adsila .menu__item:focus {
 	color: lighten(#831930, 0%);
 }
-
 
 .menu--adsila .menu__item:hover .menu__item-name::after,
 .menu--adsila .menu__item:focus .menu__item-name::after,
