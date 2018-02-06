@@ -33,12 +33,25 @@
     </div><!-- /.presentation-->
 
     <div class="side">
-      SIDE PART
+      <nav class="menu menu--adsila">
+        <a href="" class="menu__item">
+          <span class="menu__item-name">Home</span>
+          <span class="menu__item-label">E.T téléphone maison</span>
+        </a>
+        <a href="" class="menu__item">
+          <span class="menu__item-name">Projets</span>
+          <span class="menu__item-label">métro dodo</span>
+        </a>
+        <a href="" class="menu__item">
+          <span class="menu__item-name">A propos</span>
+          <span class="menu__item-label">J'aime les crêpes</span>
+        </a>
+      </nav>
     </div>
 
     <section class="projects page" id="two">
         <div class="projects__inside">
-            <h2 class="projects__title" data-aos="fade-up"><span class="project__title__text">Projets</span></h2>
+            <!-- <h2 class="projects__title" data-aos="fade-up"><span class="project__title__text">Projets</span></h2> -->
             <div class="projects__content">
                 
                 <div class="losanges">
