@@ -52,53 +52,14 @@
     app.init();
 })(jQuery);
 
-/* See related post at
-https://codepen.io/Javarome/post/full-page-sliding
-*/
-function ScrollHandler(pageId) { 
-  var page = $('#' + pageId);
-  var pageStart = page.offset().top;
-  var pageJump = false;
 
-  function scrollToPage() {
-    pageJump = true;
-      $('html, body').animate({ 
-      scrollTop: pageStart 
-    }, {
-      duration: 1000,
-      complete: function() {
-        pageJump = false;
-      }
-    });  
-  }
-  window.addEventListener('wheel', function(event) {
-   var viewStart = $(window).scrollTop();
-   if (!pageJump) { 
-      var pageHeight = page.height();
-      var pageStopPortion = pageHeight / 2;
-      var viewHeight = $(window).height();
-
-      var viewEnd = viewStart + viewHeight;
-      var pageStartPart = viewEnd - pageStart;
-      var pageEndPart = (pageStart + pageHeight) - viewStart;
-      
-      var canJumpDown = pageStartPart >= 0; 
-      var stopJumpDown = pageStartPart > pageStopPortion; 
-      
-      var canJumpUp = pageEndPart >= 0; 
-      var stopJumpUp = pageEndPart > pageStopPortion; 
-
-      var scrollingForward = event.deltaY > 0;
-      if (  ( scrollingForward && canJumpDown && !stopJumpDown) 
-         || (!scrollingForward && canJumpUp   && !stopJumpUp)) {
-        event.preventDefault();
-        scrollToPage();
-      } 
-   } else {
-     event.preventDefault();
-   }    
+// lien smoothscroll
+// SCROLL
+$(document).ready(function() {
+  $('.js-scrollTo').on('click', function() { // Au clic sur un élément
+    var page = $(this).attr('href'); // Page cible
+    var speed = 750; // Durée de l'animation (en ms)
+    $('html, body').animate( { scrollTop: $(page).offset().top }, speed ); // Go
+    return false;
   });
-}
-new ScrollHandler('one'); 
-new ScrollHandler('two');
-new ScrollHandler('three');
+});
