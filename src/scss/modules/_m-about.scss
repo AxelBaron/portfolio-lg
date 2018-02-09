@@ -35,6 +35,7 @@
     align-self: center;
     @include size(200px);
     margin: 0 0 35px 0;
+    position: relative;
     &:before{
       content: "";
       width: 20px;
@@ -66,7 +67,7 @@
       position: relative;
       z-index: 1;
       
-      img{        
+      img{
         max-width: initial;
         transform: rotate(-45deg);
         position: absolute;

@@ -13,12 +13,39 @@
 	background-size: cover;
 
 	display: flex;
+	flex-flow: column wrap;
 	align-items: center;
+	justify-content: center;
+	&__title{
+		padding: 0 10px;
+		text-transform: uppercase;
+		font-family: font('secondary');
+		color: color('background');
+		position: relative;
+		margin-bottom: 16px;
+		letter-spacing: 5px;
+		text-align: center;
+		h1{
+			font-size: 3.7em;
+			margin-bottom: 10px; 
+			font-weight: 100;
+		}
+		&::after{
+			content: "";
+			display: block;
+			width: 80%;
+			height: 1px;
+			position: absolute;
+			bottom: 0;
+			left: 10%;
+			background-color: color('background');
+		}
+	}
 }
 
 .menu{
 	position: relative;
-	z-index: 10;
+	z-index: 10;	
 	&__item{
 		position: relative;
 		display: block;
