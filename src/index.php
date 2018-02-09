@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
+    <title>Lolita Grasset</title>
     <meta charset="UTF-8">
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Lolita Grasset</title>
+    <meta name="description" content="Lolita Grasset, intégratrice Web.">
+    <meta name="keywords" content="Lolita Grasset, intégratrice Web, junior, dev, dev front, front">
+
     <link rel="stylesheet" href="css/main.css">
     <!-- FONTAWESOME -->
     <script src="https://use.fontawesome.com/1244fbc7a8.js"></script>
@@ -19,56 +22,58 @@
     <div class="side__title">
       <h1>Lolita Grasset</h1>
     </div>
-    <nav class="menu menu--adsila">
+
+    <nav class="menu">
       <a href="#one" class="menu__item js-scrollTo">
-        <span class="menu__item-name">Home</span>
-        <span class="menu__item-label">E.T téléphone maison</span>
+        <span class="menu__item__name">Home</span>
+        <span class="menu__item__label">E.T téléphone maison</span>
       </a>
       <a href="#two" class="menu__item js-scrollTo">
-        <span class="menu__item-name">Projets</span>
-        <span class="menu__item-label">Métro dodo</span>
+        <span class="menu__item__name">Projets</span>
+        <span class="menu__item__label">Métro dodo</span>
       </a>
       <a href="#three" class="menu__item js-scrollTo">
-        <span class="menu__item-name">A propos</span>
-        <span class="menu__item-label">J'aime les crêpes</span>
+        <span class="menu__item__name">A propos</span>
+        <span class="menu__item__label">J'aime les crêpes</span>
       </a>
     </nav>
-    <div class="icones">
-      <div class="icones__liste">
-        <p class="ligne">
-          <a href="#" class="icone icone--linkedin" title="Linkedin">
-            <span class="icone__inside">
+
+    <div class="icons">
+      <div class="icons__list">
+        <p class="line">
+          <a href="#" class="icon icon--linkedin" title="Linkedin">
+            <span class="icon__inside">
               <i class="fa fa-linkedin" aria-hidden="true"></i>
             </span>
           </a>
-          <a href="#" class="icone icone--codepen" title="Codepen">
-            <span class="icone__inside">
+          <a href="#" class="icon icon--codepen" title="Codepen">
+            <span class="icon__inside">
               <i class="fa fa-codepen" aria-hidden="true"></i>
             </span>
           </a>
-          <a href="#" class="icone icone--github" title="github">
-            <span class="icone__inside">
+          <a href="#" class="icon icon--github" title="github">
+            <span class="icon__inside">
               <i class="fa fa-github" aria-hidden="true"></i>
             </span>
           </a>
         </p>
-        <p class="ligne">
-          <a href="#" class="icone icone--cv" title="CV">
-            <span class="icone__inside">
+        <p class="line">
+          <a href="#" class="icon icon--cv" title="CV">
+            <span class="icon__inside">
               <i class="fa fa-id-card-o" aria-hidden="true"></i>
             </span>
           </a>
-          <a href="#" class="icone icone--mail" title="Contactez-moi<3">
-            <span class="icone__inside">
+          <a href="#" class="icon icon--mail" title="Contactez-moi<3">
+            <span class="icon__inside">
               <i class="fa fa-envelope" aria-hidden="true"></i>
             </span>
           </a>
         </p>        
-      </div>
-    </div>
-  </div>
-  <div class="presentation page" id="one" data-hash="section-presentation">
-      
+      </div><!--/.icons__list-->
+    </div><!--/.icons-->
+  </div><!--/.side-->
+
+  <div class="presentation" id="one" data-hash="section-presentation">
       <h1 class="presentation__name shuffle shuffle-one">
           <span class="shuffle__anim">&nbsp;</span>
           <span class="shuffle__slash">|</span>
@@ -87,7 +92,7 @@
       </div>
   </div><!-- /.presentation-->
 
-  <section class="projects page" id="two" data-hash="section-projects">
+  <section class="projects" id="two" data-hash="section-projects">
       <div class="projects__inside">
           <!-- <h2 class="projects__title" ><span class="project__title__text">Projets</span></h2> -->
           <div class="projects__content">
@@ -232,7 +237,8 @@
           </div><!-- /.projects__-->
       </div>
   </section>
-  <section class="about page" id="three">
+
+  <section class="about" id="three">
     <div class="about__content">
       <div class="about__img" data-aos="fade-up">
         <div class="image-element">

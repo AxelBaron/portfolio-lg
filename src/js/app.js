@@ -16,6 +16,7 @@
                 easing: 'ease-in-sine',
                 delay: 100
             });
+            app.scrollTo();
         },
         copyright: function () {
             console.info("%c Lolita Grasset %c http://lolitagrasset.com/", ' font-weight: bold; color: white; background: black;', 'font-weight: normal; font-style: italic; color: gray;');
@@ -43,6 +44,15 @@
                     }
                 });
             }, delay);
+        },
+
+        scrollTo: function () {
+            $('.js-scrollTo').on('click', function() { // Au clic sur un élément
+                var page = $(this).attr('href'); // Page cible
+                var speed = 750; // Durée de l'animation (en ms)
+                $('html, body').animate( { scrollTop: $(page).offset().top }, speed ); // Go
+                return false;
+            });
         }
     };
 
@@ -51,14 +61,3 @@
      */
     app.init();
 })(jQuery);
-
-// lien smoothscroll
-// SCROLL
-$(document).ready(function() {
-  $('.js-scrollTo').on('click', function() { // Au clic sur un élément
-    var page = $(this).attr('href'); // Page cible
-    var speed = 750; // Durée de l'animation (en ms)
-    $('html, body').animate( { scrollTop: $(page).offset().top }, speed ); // Go
-    return false;
-  });
-});
