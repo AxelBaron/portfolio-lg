@@ -199,9 +199,10 @@
         <div class="about__content">
             <div class="about__img" data-aos="fade-up">
               <div class="image-element">
-                <!-- <img src="/img/photo.jpg" alt=""> -->
+                <img class="hidden-nohover" src="https://media.giphy.com/media/12NUbkX6p4xOO4/giphy.gif" alt="magic">
                 <!-- <img src="https://media.giphy.com/media/NzcdxHBuVB1zq/giphy.gif" alt="dean"> -->
-                <img src="https://slack-imgs.com/?c=1&url=http%3A%2F%2Fmedia1.giphy.com%2Fmedia%2FXreQmk7ETCak0%2Fgiphy.gif" alt="">
+                <!-- <img src="https://slack-imgs.com/?c=1&url=http%3A%2F%2Fmedia1.giphy.com%2Fmedia%2FXreQmk7ETCak0%2Fgiphy.gif" alt=""> -->
+                <img class="hidden-hover" src="/img/photo.jpg" alt="">
               </div>
             </div>
             <div class="about__text">

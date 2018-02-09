@@ -89,8 +89,7 @@ function ScrollHandler(pageId) {
       var stopJumpUp = pageEndPart > pageStopPortion; 
 
       var scrollingForward = event.deltaY > 0;
-      if (  ( scrollingForward && canJumpDown && !stopJumpDown) 
-         || (!scrollingForward && canJumpUp   && !stopJumpUp)) {
+      if (  ( scrollingForward && canJumpDown && !stopJumpDown) || (!scrollingForward && canJumpUp   && !stopJumpUp)) {
         event.preventDefault();
         scrollToPage();
       } 

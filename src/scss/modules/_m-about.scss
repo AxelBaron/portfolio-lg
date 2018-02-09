@@ -66,18 +66,17 @@
       position: relative;
       z-index: 1;
       
-      img{
-        
-        
+      img{        
         max-width: initial;
         transform: rotate(-45deg);
         position: absolute;
+        transition: all 1s;
 
         //yeah
-        width:auto;
-        height: 142%;
-        top: -32%;
-        left: -35%;
+        // width:auto;
+        // height: 142%;
+        // top: -32%;
+        // left: -35%;
         
         // dean
         // width: auto;
@@ -85,11 +84,28 @@
         // top: -20%;
         // left: -95%;
 
-        // photo normale
-        // width: 270px;
-        // height: 270px;
-        // top: -36px;
-        // left: -20px;
+        //magic
+        .hidden-hover{
+          opacity: 1;
+          width: 270px;
+          height: 270px;
+          top: -36px;
+          left: -20px;
+        }
+        .hidden-nohover{
+          opacity: 0;
+          position: absolute;
+          width: auto;
+          height: 144%;
+          top: -15%;
+          left: -27%;
+        }
+        &:hover .hidden-hover{
+          opacity: 0;
+        }
+        &:hover .hidden-nohover{
+          opacity: 1;
+        }
 
       }
      
