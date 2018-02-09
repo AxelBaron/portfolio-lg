@@ -16,6 +16,9 @@
 
 <div class="site-container section-wrapper">
   <div class="side">
+    <div class="side__title">
+      <h1>Lolita Grasset</h1>
+    </div>
     <nav class="menu menu--adsila">
       <a href="#one" class="menu__item js-scrollTo">
         <span class="menu__item-name">Home</span>
@@ -30,6 +33,39 @@
         <span class="menu__item-label">J'aime les crêpes</span>
       </a>
     </nav>
+    <div class="icones">
+      <div class="icones__liste">
+        <p class="ligne">
+          <a href="#" class="icone icone--linkedin" title="Linkedin">
+            <span class="icone__inside">
+              <i class="fa fa-linkedin" aria-hidden="true"></i>
+            </span>
+          </a>
+          <a href="#" class="icone icone--codepen" title="Codepen">
+            <span class="icone__inside">
+              <i class="fa fa-codepen" aria-hidden="true"></i>
+            </span>
+          </a>
+          <a href="#" class="icone icone--github" title="github">
+            <span class="icone__inside">
+              <i class="fa fa-github" aria-hidden="true"></i>
+            </span>
+          </a>
+        </p>
+        <p class="ligne">
+          <a href="#" class="icone icone--cv" title="CV">
+            <span class="icone__inside">
+              <i class="fa fa-id-card-o" aria-hidden="true"></i>
+            </span>
+          </a>
+          <a href="#" class="icone icone--mail" title="Contactez-moi<3">
+            <span class="icone__inside">
+              <i class="fa fa-envelope" aria-hidden="true"></i>
+            </span>
+          </a>
+        </p>        
+      </div>
+    </div>
   </div>
   <div class="presentation page" id="one" data-hash="section-presentation">
       
