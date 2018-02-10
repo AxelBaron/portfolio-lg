@@ -73,7 +73,7 @@
     </div><!--/.icons-->
   </div><!--/.side-->
 
-  <div class="presentation" id="one" data-hash="section-presentation">
+  <div class="presentation page" id="one" data-hash="section-presentation">
       <h1 class="presentation__name shuffle shuffle-one">
           <span class="shuffle__anim">&nbsp;</span>
           <span class="shuffle__slash">|</span>
@@ -92,7 +92,7 @@
       </div>
   </div><!-- /.presentation-->
 
-  <section class="projects" id="two" data-hash="section-projects">
+  <section class="projects page" id="two" data-hash="section-projects">
       <div class="projects__inside">
           <!-- <h2 class="projects__title" ><span class="project__title__text">Projets</span></h2> -->
           <div class="projects__content">
@@ -238,7 +238,7 @@
       </div>
   </section>
 
-  <section class="about" id="three">
+  <section class="about page" id="three">
     <div class="about__content">
       <div class="about__img" data-aos="fade-up">
         <div class="image-element">

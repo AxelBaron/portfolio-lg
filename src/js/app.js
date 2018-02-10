@@ -18,6 +18,7 @@
             });
             app.scrollTo();
         },
+
         copyright: function () {
             console.info("%c Lolita Grasset %c http://lolitagrasset.com/", ' font-weight: bold; color: white; background: black;', 'font-weight: normal; font-style: italic; color: gray;');
         },
