@@ -17,6 +17,23 @@
                 delay: 100
             });
             app.scrollTo();
+
+            /* Smartscroll external library */
+            var options = {
+                mode: "vp", // "vp", "set"
+                autoHash: false,
+                sectionScroll: true,
+                initialScroll: false,
+                keepHistory: false,
+                sectionWrapperSelector: ".section-wrapper",
+                sectionClass: "js-page",
+                animationSpeed: 600,
+                headerHash: "header",
+                breakpoint: null,
+                eventEmitter: null,
+                dynamicHeight: false
+            };
+            $.smartscroll(options);
         },
 
         copyright: function () {
