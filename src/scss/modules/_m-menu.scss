@@ -54,10 +54,7 @@
 
     }
 
-    &:hover .menu__item--name::before{
-      transform: rotate(225deg);
-      background-color: lighten(#831930, 0%);
-    }
+
 
     &__label{
       position: relative;
@@ -94,29 +91,30 @@
 }
 
 /* Hover */
-.menu__item:hover .menu__item-name::before{
+.menu__item:hover .menu__item__name::before,
+.js-active .menu__item__name::before{
   transform: rotate(225deg);
   background-color: lighten(#831930, 0%);
 }
-.menu--adsila .menu__item:hover,
-.menu--adsila .menu__item:focus {
+.menu__item:hover,
+.js-active {
   color: lighten(#831930, 0%);
 }
 
-.menu--adsila .menu__item:hover .menu__item-name::after,
-.menu--adsila .menu__item:focus .menu__item-name::after,
-.menu--adsila .menu__item:hover .menu__item-label::after,
-.menu--adsila .menu__item:focus .menu__item-label::after {
+.menu__item:hover .menu__item__name::after,
+.menu__item:hover .menu__item__label::after,
+.js-active .menu__item__name::after,
+.js-active .menu__item__label::after {
   transform: scale3d(1,1,1);
 }
 
-.menu--adsila .menu__item:hover .menu__item-label,
-.menu--adsila .menu__item:focus .menu__item-label {
+.menu__item:hover .menu__item__label,
+.js-active .menu__item-label {
   transform: translate3d(0,0,0);
 }
 
-.menu--adsila .menu__item:hover .menu__item-label::after,
-.menu--adsila .menu__item:focus .menu__item-label::after {
+.menu__item:hover .menu__item__label::after,
+.js-active .menu__item-label::after {
   transition-timing-function: ease;
   transform-origin: 0% 50%;
 }

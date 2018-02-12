@@ -24,15 +24,15 @@
     </div>
 
     <nav class="menu">
-      <a href="#one" class="menu__item js-scrollTo">
-        <span class="menu__item__name">Home</span>
+      <a href="#one" class="menu__item js-scrollTo js-active" id="js-home">
+        <span class="menu__item__name" >Home</span>
         <span class="menu__item__label">E.T téléphone maison</span>
       </a>
-      <a href="#two" class="menu__item js-scrollTo">
+      <a href="#two" class="menu__item js-scrollTo" id="js-projects">
         <span class="menu__item__name">Projets</span>
         <span class="menu__item__label">Métro dodo</span>
       </a>
-      <a href="#three" class="menu__item js-scrollTo">
+      <a href="#three" class="menu__item js-scrollTo" id="js-about">
         <span class="menu__item__name">A propos</span>
         <span class="menu__item__label">J'aime les crêpes</span>
       </a>
