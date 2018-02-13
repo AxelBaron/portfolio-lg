@@ -17,23 +17,25 @@
                 delay: 100
             });
             app.scrollTo();
-
-            /* Smartscroll external library */
-            var options = {
-                mode: "vp", // "vp", "set"
-                autoHash: false,
-                sectionScroll: true,
-                initialScroll: false,
-                keepHistory: false,
-                sectionWrapperSelector: ".section-wrapper",
-                sectionClass: "js-page",
-                animationSpeed: 600,
-                headerHash: "header",
-                breakpoint: null,
-                eventEmitter: null,
-                dynamicHeight: false
-            };
-            $.smartscroll(options);
+            var larg = (window.innerWidth);
+            if( larg > 1200 ){
+                /* Smartscroll external library */
+                var options = {
+                    mode: "vp", // "vp", "set"
+                    autoHash: false,
+                    sectionScroll: true,
+                    initialScroll: false,
+                    keepHistory: false,
+                    sectionWrapperSelector: ".section-wrapper",
+                    sectionClass: "js-page",
+                    animationSpeed: 600,
+                    headerHash: "header",
+                    breakpoint: null,
+                    eventEmitter: null,
+                    dynamicHeight: false
+                };
+                $.smartscroll(options);
+            }
         },
 
         copyright: function () {
@@ -64,6 +66,7 @@
             }, delay);
         },
 
+        // MENU SCROLLTO
         scrollTo: function () {
             $('.js-scrollTo').on('click', function() { // Au clic sur un élément
                 var page = $(this).attr('href'); // Page cible
@@ -73,6 +76,7 @@
             });
         },
 
+        // ITEM DE MENU ACTIF SELON SCROLL
         active: function(){
              // récupération des éléments à rendre actifs 
             var activePresentation = document.getElementById('js-home');
@@ -104,6 +108,29 @@
               activeProjects.classList.remove("js-active");
               activeAbout.classList.add("js-active");
             }
+        },
+
+        // RESIZE
+        resize: function(){
+            var larg = (window.innerWidth);
+            if( larg < 1200 ){
+                /* Smartscroll external library */
+                var options = {
+                    mode: "vp", // "vp", "set"
+                    autoHash: false,
+                    sectionScroll: false,
+                    initialScroll: false,
+                    keepHistory: false,
+                    sectionWrapperSelector: ".section-wrapper",
+                    sectionClass: "js-page",
+                    animationSpeed: 600,
+                    headerHash: "header",
+                    breakpoint: null,
+                    eventEmitter: null,
+                    dynamicHeight: false
+                };
+                $.smartscroll(options);
+            }
         }
 
     };
@@ -114,5 +141,8 @@
     app.init();
     $(window).scroll(function(){
         app.active();
+    });
+    $(window).resize(function(){
+        app.resize();
     });
 })(jQuery);

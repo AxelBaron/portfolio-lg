@@ -1,41 +1,8 @@
-  .codepen{
-    background-color: lighten(#000000, 20%);
-  }
-  .chibiakihabara{
-    background-color: lighten(#f5f5f5, 3%);
-  }
-  .killtilt{
-    background-color: lighten(#000000, 20%);
-  }
-  .villagemap{
-    background-color: lighten(#107B89, 5%);
-  }
-  .riodelvin{
-    background-color: #ffffff;
-  }
-  .anadore{
-    background-color: lighten(#084376, 5%);
-  }
-  .curieusesexpositions{
-    background-color: lighten(#D94E66, 10%);
-  }
-
-
-  .losanges{
-    &__inside{
-      display: flex;
-      flex-flow: row wrap;
-      justify-content: center;
-      
-    }
-  }
-
-  .losange-container{
-    position: relative;
-    margin: -50px 30px;
-  }
-
-  .losange{
+// _m-losanges.scss
+.losange{
+  position: relative;
+  margin: -50px 30px;
+  &__container{
     margin: 43px;
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
     transform: rotate(-45deg);
@@ -44,6 +11,30 @@
       width: 200px;
       height: 200px;
       overflow: hidden;
+
+      &--chibiakihabara{
+        background-color: lighten(#f5f5f5, 3%);
+      }
+      &--codepen{
+        background-color: lighten(#000000, 20%);
+      }
+      
+      &--killtilt{
+        background-color: lighten(#000000, 20%);
+      }
+      &--villagemap{
+        background-color: lighten(#107B89, 5%);
+      }
+      &--riodelvin{
+        background-color: #ffffff;
+      }
+      &--anadore{
+        background-color: lighten(#084376, 5%);
+      }
+      &--curieusesexpositions{
+        background-color: lighten(#D94E66, 10%);
+      }
+
       &__side{
         width: 84%;
         height: 84%;
@@ -74,11 +65,7 @@
       }
     }
   }
-
-
-  // TODO Don't target HTML tag
-  /* .losanges__text */
-  .txt{
+  &__text{
     position: absolute;
     top: 0;
     left: 0;
@@ -91,7 +78,7 @@
     backface-visibility: hidden;
     -webkit-backface-visibility: hidden;
     transition: 1s;
-    h3{
+    &__title{
       font-family: font('tertiary');
       font-weight: 400;
       font-size: 20px;
@@ -99,10 +86,10 @@
       letter-spacing: 2px;
       margin: 0 15px;
       padding: 35px 0 0 0;
-      &.two-lines{
+      &--two-lines{
         padding: 20px 0 0 0;
       }
-      a{
+      &__link{
         text-decoration: none;
         color: black;
         transition: 0.3s;
@@ -111,48 +98,48 @@
         }
       }
     }
-
-    h4{
+    &__subtitle{
       font-family: font('tertiary');
       letter-spacing: 2px;
       font-size: 16px;
       font-weight: 400;
-      margin: 5px 0 5px 0; 
+      margin: 5px 0 5px 0;
     }
-
-    p{
+    &__description{
       font-size: 11px;
       margin: 10px 0 5px;
       padding: 10px 5px;
       border-top: 1px solid rgba(0,0,0,1);
-      span{
+      &__container{
         display: block;
-      }
-      a{
-        display: inline-block;
-        color: black;
-        font-style: normal;
-        font-weight: bold;
-        text-transform: uppercase;
-        text-decoration: none;
-        font-size: 9px;
-        letter-spacing: 1px;
-        padding-top: 4px;
-        font-family: 'Open Sans Condensed', Arial, sans-serif;
-        transition: 0.3s;
-        &:hover{
-          color: #BD4D61;
-        }       
+        &__link{
+          display: inline-block;
+          color: black;
+          font-style: normal;
+          font-weight: bold;
+          text-transform: uppercase;
+          text-decoration: none;
+          font-size: 9px;
+          letter-spacing: 1px;
+          padding-top: 4px;
+          font-family: 'Open Sans Condensed', Arial, sans-serif;
+          transition: 0.3s;
+          &:hover{
+            color: #BD4D61;
+          }
+        }
       }
     }
   }
+}
 
-  .losange-container:hover .losange__inside__side--back{
-    transform: rotate3D(-1, 1, 0, 360deg);
-  }
-  .losange-container:hover .losange__inside__side--face{
-    transform: rotate3D(-1, 1, 0, 180deg);
-  }
-  .losange-container:hover .txt{
-    transform: rotate3D(-1, 1, 0, 360deg);
-  }
+// EFFETS DE HOVER
+.losange:hover .losange__container__inside__side--back{
+  transform: rotate3D(-1, 1, 0, 360deg);
+}
+.losange:hover .losange__container__inside__side--face{
+  transform: rotate3D(-1, 1, 0, 180deg);
+}
+.losange:hover .losange__text{
+  transform: rotate3D(-1, 1, 0, 360deg);
+}

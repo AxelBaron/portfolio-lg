@@ -20,7 +20,7 @@
     width: 65%;
     height: 80px;
     background: url(../img/mid.png) no-repeat left center /cover;
-
+    z-index: -1;
   }
 
 }
@@ -51,7 +51,7 @@
     width: 100%;
     height: 80px;
     background: url(../img/mid-reverse.png) no-repeat center top /cover;
-    z-index: 0;
+    z-index: -1;
 
   }
 }

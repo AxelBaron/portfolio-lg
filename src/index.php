@@ -41,24 +41,24 @@
     <div class="icons">
       <div class="icons__list">
         <p class="line">
-          <a href="#" class="icon icon--linkedin" title="Linkedin">
+          <a href="https://www.linkedin.com/in/lolita-grasset-a66781b3/" target="_blank" class="icon icon--linkedin" title="Linkedin">
             <span class="icon__inside">
               <i class="fa fa-linkedin" aria-hidden="true"></i>
             </span>
           </a>
-          <a href="#" class="icon icon--codepen" title="Codepen">
+          <a href="https://codepen.io/Skyz0fraise/" target="_blank" class="icon icon--codepen" title="Codepen">
             <span class="icon__inside">
               <i class="fa fa-codepen" aria-hidden="true"></i>
             </span>
           </a>
-          <a href="#" class="icon icon--github" title="github">
+          <a href="https://github.com/Skyzofraise" target="_blank" class="icon icon--github" title="github">
             <span class="icon__inside">
               <i class="fa fa-github" aria-hidden="true"></i>
             </span>
           </a>
         </p>
         <p class="line">
-          <a href="#" class="icon icon--cv" title="CV">
+          <a href="https://www.dropbox.com/s/00vfvcblnq73eet/CV-lastone.pdf?dl=0" target="_blank" class="icon icon--cv" title="CV">
             <span class="icon__inside">
               <i class="fa fa-id-card-o" aria-hidden="true"></i>
             </span>
@@ -95,136 +95,173 @@
   <section class="projects js-page" id="two" data-hash="section-projects">
       <div class="projects__inside">
         <div class="projects__content">
-          <div class="losanges">
-            <div class="losanges__inside" data-aos=fade-up>
+          <div class="grid">
+            <div class="grid__inside" data-aos=fade-up>
 
-              <div class="losange-container">
-                <div class="losange">
-                  <div class="losange__inside chibiakihabara">
-                    <div class="losange__inside__side losange__inside__side--face">
+              <div class="losange">
+                <div class="losange__container">
+                  <div class="losange__container__inside losange__container__inside--chibiakihabara">
+                    <div class="losange__container__inside__side losange__container__inside__side--face">
                       <img src="img/chibi.png" alt="" class="image">
                     </div>
-                    <div class="losange__inside__side losange__inside__side--back">
+                    <div class="losange__container__inside__side losange__container__inside__side--back">
                     </div>
                   </div>
                 </div>
-                <div class="txt">
-                  <h3 class="two-lines"><a href="http://chibi-akihabara.com/" target="_blank" title="site chibi akihabara">Chibi<br> Akihabara</a></h3>
-                  <h4>E-Commerce</h4>
-                  <p>Intégration web Prestashop <span><a href="https://www.behance.net/gallery/40301139/Chibi-Akihabara-E-commerce" title="behance chibi akihabara" target="_blank">behance</a>/<a href="http://chibi-akihabara.com/" title="site chibi akihabara" target="_blank">site</a></span></p>
+                <div class="losange__text">
+                  <h3 class="losange__text__title losange__text__title--two-lines">
+                    <a class="losange__text__title__link" href="http://chibi-akihabara.com/" target="_blank" title="site chibi akihabara">Chibi<br> Akihabara</a>
+                  </h3>
+                  <h4 class="losange__text__subtitle">E-Commerce</h4>
+                  <p class="losange__text__description">Intégration web Prestashop 
+                    <span class="losange__text__description__container">
+                      <a class="losange__text__description__container__link" href="https://www.behance.net/gallery/40301139/Chibi-Akihabara-E-commerce" title="behance chibi akihabara" target="_blank">behance</a>/
+                      <a class="losange__text__description__container__link" href="http://chibi-akihabara.com/" title="site chibi akihabara" target="_blank">site</a>
+                    </span>
+                  </p>
                 </div>
               </div>
 
-              <div class="losange-container">
-                  <div class="losange">
-                    <div class="losange__inside riodelvin">
-                      <div class="losange__inside__side losange__inside__side--face">
+              <div class="losange">
+                  <div class="losange__container">
+                    <div class="losange__container__inside losange__container__inside--riodelvin">
+                      <div class="losange__container__inside__side losange__container__inside__side--face">
                         <img src="img/riodelvin.png" alt="" class="image">
                       </div>
-                      <div class="losange__inside__side losange__inside__side--back">
+                      <div class="losange__container__inside__side losange__container__inside__side--back">
                       </div>
                     </div>
                   </div>
-                  <div class="txt">
-                    <h3><a href="http://lolitagrasset.com/RioDelVin/" target="_blank" title="site rio del vin">Rio del Vin</a></h3>
-                    <h4>Site vitrine</h4>
-                    <p>Intégration web / Dev. front 
-                      <span><a href="http://lolitagrasset.com/RioDelVin/" target="_blank">site</a></span>
+                  <div class="losange__text">
+                    <h3 class="losange__text__title" >
+                      <a class="losange__text__title__link" href="http://lolitagrasset.com/RioDelVin/" target="_blank" title="site rio del vin">Rio del Vin</a>
+                    </h3>
+                    <h4 class="losange__text__subtitle">Site vitrine</h4>
+                    <p class="losange__text__description">Intégration web / Dev. front 
+                      <span class="losange__text__description__container">
+                        <a class="losange__text__description__container__link" href="http://lolitagrasset.com/RioDelVin/" target="_blank">site</a>
+                      </span>
                     </p>
                 </div>
               </div>
 
             </div>
-            <div class="losanges__inside" data-aos=fade-up>
+            <div class="grid__inside" data-aos=fade-up>
 
-              <div class="losange-container">
-                <div class="losange">
-                  <div class="losange__inside killtilt">
-                    <div class="losange__inside__side losange__inside__side--face">
+              <div class="losange">
+                <div class="losange__container">
+                  <div class="losange__container__inside osange__container__inside--killtilt">
+                    <div class="losange__container__inside__side losange__container__inside__side--face">
                       <img src="img/kt.png" alt="" class="image">
                     </div>
-                    <div class="losange__inside__side losange__inside__side--back">
+                    <div class="losange__container__inside__side losange__container__inside__side--back">
                     </div>
                   </div>
                 </div>
-                <div class="txt">
-                  <h3><a href="https://www.kill-tilt.fr/" title="site kill tilt" target="_blank">Kill Tilt</a></h3>
-                  <h4>Site communautaire</h4>
-                  <p>Inté / dev. back Wordpress 
-                    <span><a href="https://www.behance.net/gallery/40336865/Kill-Tilt-Site-Communautaire" title="voir sur behance" target="_blank">behance</a>/<a href="https://www.kill-tilt.fr/" title="site Kill Tilt target="_blank">site</a></span>
+                <div class="losange__text">
+                  <h3 class="losange__text__title" >
+                    <a class="losange__text__title__link" href="https://www.kill-tilt.fr/" title="site kill tilt" target="_blank">Kill Tilt</a></h3>
+                  <h4 class="losange__text__subtitle">Site communautaire</h4>
+                  <p class="losange__text__description">Inté / dev. back Wordpress 
+                    <span class="losange__text__description__container">
+                      <a class="losange__text__description__container__link" href="https://www.behance.net/gallery/40336865/Kill-Tilt-Site-Communautaire" title="voir sur behance" target="_blank">behance</a>/
+                      <a class="losange__text__description__container__link" href="https://www.kill-tilt.fr/" title="site Kill Tilt target="_blank">site</a>
+                    </span>
                   </p>
                 </div>
               </div>
 
-              <div class="losange-container">
-                <div class="losange">
-                  <div class="losange__inside villagemap">
-                    <div class="losange__inside__side losange__inside__side--face">
+              <div class="losange">
+                <div class="losange__container">
+                  <div class="losange__container__inside losange__container__inside--villagemap">
+                    <div class="losange__container__inside__side losange__container__inside__side--face">
                       <img src="img/villagemap.png" alt="" class="image">
                     </div>
-                    <div class="losange__inside__side losange__inside__side--back">
+                    <div class="losange__container__inside__side losange__container__inside__side--back">
                     </div>
                   </div>
                 </div>
-                <div class="txt">
-                  <h3><a href="https://www.behance.net/gallery/40370675/Village-Map-Place-de-march" title="voir sur behance" target="_blank">Village Map</a></h3>
-                  <h4>Place de marché</h4>
-                  <p>Inté / dev. front <span><a href="https://www.behance.net/gallery/40370675/Village-Map-Place-de-march" title="voir sur behance" target="_blank">behance</a></span></p>
+                <div class="losange__text">
+                  <h3 class="losange__text__title">
+                    <a class="losange__text__title__link" href="https://www.behance.net/gallery/40370675/Village-Map-Place-de-march" title="voir sur behance" target="_blank">Village Map</a>
+                  </h3>
+                  <h4 class="losange__text__subtitle">Place de marché</h4>
+                  <p class="losange__text__description">Inté / dev. front 
+                    <span class="losange__text__description__container">
+                      <a class="losange__text__description__container__link" href="https://www.behance.net/gallery/40370675/Village-Map-Place-de-march" title="voir sur behance" target="_blank">behance</a>
+                    </span>
+                  </p>
                 </div>
               </div>
 
-              <div class="losange-container">
-                <div class="losange">
-                  <div class="losange__inside curieusesexpositions">
-                    <div class="losange__inside__side losange__inside__side--face">
+              <div class="losange">
+                <div class="losange__container">
+                  <div class="losange__container__inside losange__container__inside--curieusesexpositions">
+                    <div class="losange__container__inside__side losange__container__inside__side--face">
                       <img src="img/curieusesexpositions.png" alt="" class="image">
                     </div>
-                    <div class="losange__inside__side losange__inside__side--back">
+                    <div class="losange__container__inside__side losange__container__inside__side--back">
                     </div>
                   </div>
                 </div>
-                <div class="txt">
-                  <h3 class="two-lines"><a href="http://lescurieusesexpositions.fr/" target="_blank">Curieuses expositions</a></h3>
-                  <h4>Site d'événements</h4>
-                  <p>Inté / dev. back Wordpress <span><a href="http://lescurieusesexpositions.fr/" target="_blank">site</a></span></p>
+                <div class="losange__text">
+                  <h3 class="losange__text__title losange__text_title--two-lines">
+                    <a class="losange__text__title__link" href="http://lescurieusesexpositions.fr/" target="_blank">Curieuses expositions</a>
+                  </h3>
+                  <h4 class="losange__text__subtitle">Site d'événements</h4>
+                  <p class="losange__text__description">Inté / dev. back Wordpress 
+                    <span class="losange__text__description__container">
+                      <a class="losange__text__description__container__link" href="http://lescurieusesexpositions.fr/" target="_blank">site</a>
+                    </span>
+                  </p>
                 </div>
               </div>
 
             </div>
-            <div class="losanges__inside" data-aos=fade-up>
+            <div class="grid__inside" data-aos=fade-up>
 
-              <div class="losange-container">
-                <div class="losange">
-                  <div class="losange__inside anadore">
-                    <div class="losange__inside__side losange__inside__side--face">
+              <div class="losange">
+                <div class="losange__container">
+                  <div class="losange__container__inside losange__container__inside--anadore">
+                    <div class="losange__container__inside__side losange__container__inside__side--face">
                       <img src="img/anadore.png" alt="" class="image">
                     </div>
-                    <div class="losange__inside__side losange__inside__side--back">
+                    <div class="losange__container__inside__side losange__container__inside__side--back">
                     </div>
                   </div>
                 </div>
-                <div class="txt">
-                  <h3><a href="http://anadore.fr/" title="site anadore" target="_blank">Anadore</a></h3>
-                  <h4>Site d'agence</h4>
-                  <p>Intégration web <br> Dev. front <span><a href="https://www.behance.net/gallery/40341275/Anadore-Site-agence" title="voir sur behance" target="_blank">behance</a>/<a href="http://www.anadore.fr/" title="site anadore" target="_blank">site</a></span></p>
+                <div class="losange__text">
+                  <h3 class="losange__text__title">
+                    <a class="losange__text__title__link" href="http://anadore.fr/" title="site anadore" target="_blank">Anadore</a>
+                  </h3>
+                  <h4 class="losange__text__subtitle">Site d'agence</h4>
+                  <p class="losange__text__description">Intégration web <br> Dev. front 
+                    <span class="losange__text__description__container">
+                      <a class="losange__text__description__container__link" href="https://www.behance.net/gallery/40341275/Anadore-Site-agence" title="voir sur behance" target="_blank">behance</a>/<a class="losange__text__description__container__link" href="http://www.anadore.fr/" title="site anadore" target="_blank">site</a>
+                    </span>
+                  </p>
                 </div>
               </div>
 
-              <div class="losange-container">
-                  <div class="losange">
-                    <div class="losange__inside codepen">
-                      <div class="losange__inside__side losange__inside__side--face">
+              <div class="losange">
+                  <div class="losange__container">
+                    <div class="losange__container__inside losange__container__inside--codepen">
+                      <div class="losange__container__inside__side losange__container__inside__side--face">
                         <img src="img/codepen.png" alt="" class="image">
                       </div>
-                      <div class="losange__inside__side losange__inside__side--back">
+                      <div class="losange__container__inside__side losange__container__inside__side--back">
                       </div>
                     </div>
                   </div>
-                  <div class="txt">
-                    <h3 class="two-lines">Je  <br /> bidouille</h3>
-                    <h4>des bouts de code</h4>
-                    <p>Par ici et par là
-                      <span><a href="https://codepen.io/Skyz0fraise/" target="_blank">sur codepen</a></span>
+                  <div class="losange__text">
+                    <h3 class="losange__text__title losange__text__title--two-lines">
+                      <a class="losange__text__title__link" href="https://codepen.io/Skyz0fraise/" title="Codepen" target="_blank">Je  <br /> bidouille</a>
+                    </h3>
+                    <h4 class="losange__text__subtitle">des bouts de code</h4>
+                    <p class="losange__text__description">Par ici et par là
+                      <span class="losange__text__description__container">
+                        <a class="losange__text__description__container__link" href="https://codepen.io/Skyz0fraise/" target="_blank">sur codepen</a>
+                      </span>
                     </p>
                 </div>
               </div>

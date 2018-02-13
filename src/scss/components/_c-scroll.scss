@@ -9,6 +9,9 @@
   height: 60px;
 
   .presentation & {
+    @include respond-to('medium'){
+      bottom: 80px;
+    }
     position: absolute;
     bottom: 180px;
   }
