@@ -96,8 +96,8 @@
       <div class="projects__inside">
         <div class="projects__content">
           <div class="grid">
+            <h2 class="projects__title title" data-aos=fade-up>Projets</h2>
             <div class="grid__inside" data-aos=fade-up>
-
               <div class="losange">
                 <div class="losange__container">
                   <div class="losange__container__inside losange__container__inside--chibiakihabara">
@@ -146,8 +146,8 @@
               </div>
 
             </div>
-            <div class="grid__inside" data-aos=fade-up>
-
+            <div class="grid__inside grid__inside--three-items" data-aos=fade-up>
+      
               <div class="losange">
                 <div class="losange__container">
                   <div class="losange__container__inside osange__container__inside--killtilt">
@@ -194,7 +194,7 @@
                 </div>
               </div>
 
-              <div class="losange">
+              <div class="losange losange--last-one">
                 <div class="losange__container">
                   <div class="losange__container__inside losange__container__inside--curieusesexpositions">
                     <div class="losange__container__inside__side losange__container__inside__side--face">
@@ -205,7 +205,7 @@
                   </div>
                 </div>
                 <div class="losange__text">
-                  <h3 class="losange__text__title losange__text_title--two-lines">
+                  <h3 class="losange__text__title losange__text__title--two-lines">
                     <a class="losange__text__title__link" href="http://lescurieusesexpositions.fr/" target="_blank">Curieuses expositions</a>
                   </h3>
                   <h4 class="losange__text__subtitle">Site d'événements</h4>

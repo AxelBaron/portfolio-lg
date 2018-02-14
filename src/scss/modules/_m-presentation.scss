@@ -26,6 +26,11 @@
     font-weight: 100;
     letter-spacing: 6px;
 
+    @include respond-to('small'){
+      @include font-size(80px);
+      line-height: 60px;
+    }
+
     @include respond-to('medium'){
       @include font-size(90px);
       line-height: 80px;

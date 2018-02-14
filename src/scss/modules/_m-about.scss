@@ -4,7 +4,7 @@
   display: flex;
   height: 100vh;
   background: url(../img/bg-bottom.svg) center bottom -50px no-repeat,
-  url(../img/4017.jpg) no-repeat top center /cover;
+  url(../img/4017.jpg) repeat top center /cover;
   background-size: 150%;
   margin-left: 160px;
 
@@ -28,8 +28,6 @@
     flex-flow: row wrap;
     justify-content: center;
     align-content: center;
-    
-    
   }
 
   &__img {
