@@ -1,12 +1,23 @@
 // _m-projects.scss
 
 .projects {
-  height: 100vh;
-  background: url(../img/4017.jpg) no-repeat top center;
+  
+  @include respond-to('small'){
+    height: auto;
+  }
+  @include respond-to('medium'){
+    height: auto;
+  }
+  @include respond-to('large'){
+    height: 100vh;
+  }
+  @include respond-to('huge'){
+    height: 100vh;
+  }
+  background: url(../img/4017.jpg) repeat top center;
   background-size: 150%;
   display: flex;
   align-items: center;
-
   margin-left: 160px;
 
   &__inside{
