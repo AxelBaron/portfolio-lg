@@ -283,10 +283,10 @@
           <p class="about__text--big" data-aos=fade-up>Hey (listen),</p>
           <p class="about__text--large" data-aos=fade-up>Je suis une développeuse front-end parisienne avec 2 ans d'expérience professionnelle.</p>
           <p data-aos=fade-up>
-              Je m'appelle Lolita Grasset et suis âgée de 25 ans. J'ai validé l'année dernière une formation en alternance de "Développeur multimédia" à l'école Multimédia. Je travaillais en parallèle au sein d'une agence web du nom d'<a href="http://www.anadore.fr/" title="anadore">Anadore</a>. Ils sont à la base de d'un événement de social networking nommé "Les rendez-vous de l'imaginaire" en partenariat avec Ulule, si cela vous dit quelque chose ;). 
+              Je m'appelle Lolita Grasset et suis âgée de 25 ans. J'ai validé l'année dernière une formation en alternance de "Développeur multimédia" à l'école Multimédia. Je travaillais en parallèle au sein d'une agence web du nom d'<a href="http://www.anadore.fr/" title="anadore" target="_blank">Anadore</a>. Ils sont à la base de d'un événement de social networking nommé "Les rendez-vous de l'imaginaire" en partenariat avec Ulule, si cela vous dit quelque chose ;). 
           </p>
           <p data-aos=fade-up>
-              Je travaille actuellement pour l'entreprise Fastmag mais souhaite <a href="https://www.youtube.com/watch?v=rOPoP4YWgmk">élargir mes horizons</a>. <span class="bold">Je recherche ainsi un CDI au sein d'une agence web</span> afin de continuer d'y développer mes compétences et surtout pouvoir échanger et apprendre plus encore aux côtés de collègues passionnés ( je sais me rendre sympathique avec des <span class="bold">pancakes à la banane</span> s'il le faut. )
+              Je travaille actuellement pour l'entreprise Fastmag mais souhaite <a href="https://www.youtube.com/watch?v=rOPoP4YWgmk" target="_blank">élargir mes horizons</a>. <span class="bold">Je recherche ainsi un CDI au sein d'une agence web</span> afin de continuer d'y développer mes compétences et surtout pouvoir échanger et apprendre plus encore aux côtés de collègues passionnés ( je sais me rendre sympathique avec des <span class="bold">pancakes à la banane</span> s'il le faut. )
           </p>
           <p data-aos=fade-up>
               N'hésitez pas à jeter un oeil à mon CV et m'envoyer un mail si mon profil vous intéresse.
