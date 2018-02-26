@@ -96,7 +96,7 @@
       <div class="projects__inside">
         <div class="projects__content">
           <div class="grid">
-            <h2 class="projects__title title" data-aos=fade-up>Projets</h2>
+            <h2 class="title title--projects" data-aos=fade-up>Projets</h2>
             <div class="grid__inside" data-aos=fade-up>
               <div class="losange">
                 <div class="losange__container">
@@ -275,25 +275,21 @@
       <div class="about__img" data-aos="fade-up">
         <div class="image-element">
           <img class="hidden-nohover" src="https://media.giphy.com/media/12NUbkX6p4xOO4/giphy.gif" alt="magic">
-          <!-- <img src="https://media.giphy.com/media/NzcdxHBuVB1zq/giphy.gif" alt="dean"> -->
-          <!-- <img src="https://slack-imgs.com/?c=1&url=http%3A%2F%2Fmedia1.giphy.com%2Fmedia%2FXreQmk7ETCak0%2Fgiphy.gif" alt=""> -->
           <img class="hidden-hover" src="/img/photo.jpg" alt="">
         </div>
       </div>
       <div class="about__text">
           <h2 class="about__title title" data-aos=fade-up>A propos</h2>
+          <p class="about__text--big" data-aos=fade-up>Hey (listen),</p>
+          <p class="about__text--large" data-aos=fade-up>Je suis une développeuse front-end parisienne avec 2 ans d'expérience professionnelle.</p>
           <p data-aos=fade-up>
-              Je m'appelle Lolita Grasset, j'ai 24 ans et je suis
-              actuellement à la recherche d'un CDI en tant qu'intégratrice
-              web/développeuse front à Paris. Disponible dès à présent,
-              si mon profil vous intéresse n'hésitez pas à consulter mon CV
-              et me contacter.
+              Je m'appelle Lolita Grasset et suis âgée de 25 ans. J'ai validé l'année dernière une formation en alternance de "Développeur multimédia" à l'école Multimédia. Je travaillais en parallèle au sein d'une agence web du nom d'<a href="http://www.anadore.fr/" title="anadore">Anadore</a>. Ils sont à la base de d'un événement de social networking nommé "Les rendez-vous de l'imaginaire" en partenariat avec Ulule, si cela vous dit quelque chose ;). 
           </p>
           <p data-aos=fade-up>
-              J'ai validé cette année ma formation en alternance de Développeuse
-              Multimédia où je travaillais en parallèle au sein de l'agance Anadore
-              comme intégratrice web. Fort de cette expérience, je souhaite persévérer
-              dans cette voie qui me passionne.
+              Je travaille actuellement pour l'entreprise Fastmag mais souhaite <a href="https://www.youtube.com/watch?v=rOPoP4YWgmk">élargir mes horizons</a>. <span class="bold">Je recherche ainsi un CDI au sein d'une agence web</span> afin de continuer d'y développer mes compétences et surtout pouvoir échanger et apprendre plus encore aux côtés de collègues passionnés ( je sais me rendre sympathique avec des <span class="bold">pancakes à la banane</span> s'il le faut. )
+          </p>
+          <p data-aos=fade-up>
+              N'hésitez pas à jeter un oeil à mon CV et m'envoyer un mail si mon profil vous intéresse.
           </p>
       </div><!--/.about__text-->
     </div><!--/.about__content-->

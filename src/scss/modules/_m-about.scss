@@ -84,19 +84,6 @@
         position: absolute;
         transition: all 1s;
 
-        //yeah
-        // width:auto;
-        // height: 142%;
-        // top: -32%;
-        // left: -35%;
-        
-        // dean
-        // width: auto;
-        // height: 170%;
-        // top: -20%;
-        // left: -95%;
-
-        //magic
         &.hidden-hover{
           opacity: 1;
           width: 270px;
@@ -119,21 +106,30 @@
   }
 
   &__text {
-    font-family: font('primary');
-    
-    @include respond-to('medium'){
-      margin-left: 0px;
-    }
-    @include respond-to('large'){
-      margin-left: 20px;
-    }
-    @include respond-to('huge'){
-      margin-left: 50px;
+    font-family: font('tertiary');
+    @include font-size(18px);
+    letter-spacing: 0.2px;
+    line-height: 140%;
+
+    &--large{
+      @include font-size(24px);
+      margin: 0;
     }
 
-    p {
-      margin-top: 0;
-      @include font-size(14px);
+    &--big{
+      @include font-size(30px);
+      margin: 0 0 15px;
+    }
+    
+    .bold{
+      font-weight: 600;
+    }
+    a{
+      color: #BD4D61;
+      text-decoration:none;
+      &:hover{
+        text-decoration: underline;
+      }
     }
   }
 }
