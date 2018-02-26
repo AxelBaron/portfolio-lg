@@ -289,8 +289,24 @@
               Je travaille actuellement pour l'entreprise Fastmag mais souhaite <a href="https://www.youtube.com/watch?v=rOPoP4YWgmk" target="_blank">élargir mes horizons</a>. <span class="bold">Je recherche ainsi un CDI au sein d'une agence web</span> afin de continuer d'y développer mes compétences et surtout pouvoir échanger et apprendre plus encore aux côtés de collègues passionnés ( je sais me rendre sympathique avec des <span class="bold">pancakes à la banane</span> s'il le faut. )
           </p>
           <p data-aos=fade-up>
-              N'hésitez pas à jeter un oeil à mon CV et m'envoyer un mail si mon profil vous intéresse.
+              N'hésitez pas à jeter un oeil à mon CV et m'envoyer un mail si mon profil vous intéresse ou si vous souhaitez me dire coucou et d'autres choses encore.
           </p>
+          <div class="icons">
+          <div class="icons__list">
+            <p class="line">
+              <a href="https://www.dropbox.com/s/00vfvcblnq73eet/CV-lastone.pdf?dl=0" target="_blank" class="icon icon--cv" title="CV">
+                <span class="icon__inside">
+                  <i class="fa fa-id-card-o" aria-hidden="true"></i>
+                </span>
+              </a>
+              <a href="#" class="icon icon--mail" title="Contactez-moi<3">
+                <span class="icon__inside">
+                  <i class="fa fa-envelope" aria-hidden="true"></i>
+                </span>
+              </a>
+            </p>        
+          </div><!--/.icons__list-->
+        </div><!--/.icons-->
       </div><!--/.about__text-->
     </div><!--/.about__content-->
   </section>
