@@ -6,9 +6,14 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <meta name ="author" content="Lolita Grasset">
     <meta name="description" content="Lolita Grasset, intégratrice Web.">
     <meta name="keywords" content="Lolita Grasset, intégratrice Web, junior, dev, dev front, front">
-
+    <!-- FAVICON -->
+    <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/img/favicon.ico" type="image/x-icon">
+    <!-- CSS -->
     <link rel="stylesheet" href="css/main.css">
     <!-- FONTAWESOME -->
     <script src="https://use.fontawesome.com/1244fbc7a8.js"></script>
@@ -18,7 +23,7 @@
 <body>
 
 <div class="site-container section-wrapper">
-  <div class="side">
+  <div class="side" id="js-side" data-aos=fade-right>
     <div class="side__title">
       <h1>Lolita Grasset</h1>
     </div>
@@ -82,10 +87,22 @@
           <span class="shuffle__anim"></span>
           <span class="shuffle__slash">|</span>
       </h2>
-      <div class="social">
-          <a href="" class="social__item" title="CV" target="_blank"><i class="fa fa-id-card-o" aria-hidden="true"></i></a>
-          <a href="" class="social__item" title="Email" target="_blank"><i class="fa fa-envelope-o" aria-hidden="true"></i></a>
-      </div>
+      <div class="icons social">
+      <div class="icons__list">
+        <p class="line">
+          <a href="https://www.dropbox.com/s/00vfvcblnq73eet/CV-lastone.pdf?dl=0" target="_blank" class="icon icon--big icon--cv" title="CV">
+            <span class="icon__inside">
+              <i class="fa fa-id-card-o" aria-hidden="true"></i>
+            </span>
+          </a>
+          <a href="#" class="icon icon--big icon--mail" title="Contactez-moi<3">
+            <span class="icon__inside">
+              <i class="fa fa-envelope" aria-hidden="true"></i>
+            </span>
+          </a>
+        </p>        
+      </div><!--/.icons__list-->
+    </div><!--/.icons-->
       <div class="scroll">
           <p>Scroll</p>
           <div class="scroll__anim"></div>
@@ -279,34 +296,19 @@
         </div>
       </div>
       <div class="about__text">
-          <h2 class="about__title title" data-aos=fade-up>A propos</h2>
-          <p class="about__text--big" data-aos=fade-up>Hey (listen),</p>
-          <p class="about__text--large" data-aos=fade-up>Je suis une développeuse front-end parisienne avec 2 ans d'expérience professionnelle.</p>
-          <p data-aos=fade-up>
-              Je m'appelle Lolita Grasset et suis âgée de 25 ans. J'ai validé l'année dernière une formation en alternance de "Développeur multimédia" à l'école Multimédia. Je travaillais en parallèle au sein d'une agence web du nom d'<a href="http://www.anadore.fr/" title="anadore" target="_blank">Anadore</a>. Ils sont à la base de d'un événement de social networking nommé "Les rendez-vous de l'imaginaire" en partenariat avec Ulule, si cela vous dit quelque chose ;). 
-          </p>
-          <p data-aos=fade-up>
-              Je travaille actuellement pour l'entreprise Fastmag mais souhaite <a href="https://www.youtube.com/watch?v=rOPoP4YWgmk" target="_blank">élargir mes horizons</a>. <span class="bold">Je recherche ainsi un CDI au sein d'une agence web</span> afin de continuer d'y développer mes compétences et surtout pouvoir échanger et apprendre plus encore aux côtés de collègues passionnés ( je sais me rendre sympathique avec des <span class="bold">pancakes à la banane</span> s'il le faut. )
-          </p>
-          <p data-aos=fade-up>
-              N'hésitez pas à jeter un oeil à mon CV et m'envoyer un mail si mon profil vous intéresse ou si vous souhaitez me dire coucou et d'autres choses encore.
-          </p>
-          <div class="icons">
-          <div class="icons__list">
-            <p class="line">
-              <a href="https://www.dropbox.com/s/00vfvcblnq73eet/CV-lastone.pdf?dl=0" target="_blank" class="icon icon--cv" title="CV">
-                <span class="icon__inside">
-                  <i class="fa fa-id-card-o" aria-hidden="true"></i>
-                </span>
-              </a>
-              <a href="#" class="icon icon--mail" title="Contactez-moi<3">
-                <span class="icon__inside">
-                  <i class="fa fa-envelope" aria-hidden="true"></i>
-                </span>
-              </a>
-            </p>        
-          </div><!--/.icons__list-->
-        </div><!--/.icons-->
+        <h2 class="about__title title" data-aos=fade-up>A propos</h2>
+        <p class="about__text--big" data-aos=fade-up>Hey (<a href="https://www.youtube.com/watch?v=KN1WlLVoHSQ" target"_blank">listen</a>),</p>
+        <p class="about__text--large" data-aos=fade-up>Je suis une développeuse front-end parisienne avec 2 ans d'expérience professionnelle.</p>
+        <p data-aos=fade-up>
+            Je m'appelle Lolita Grasset et suis âgée de 25 ans. J'ai validé l'année dernière une formation en alternance de "Développeur multimédia" à l'école Multimédia. Je travaillais en parallèle au sein d'une agence web du nom d'<a href="http://www.anadore.fr/" title="anadore" target="_blank">Anadore</a>. Ils sont à la base de d'un événement de social networking nommé "Les rendez-vous de l'imaginaire" en partenariat avec Ulule. 
+        </p>
+        <p data-aos=fade-up>
+            Je travaille actuellement pour l'entreprise Fastmag mais souhaite <a href="https://www.youtube.com/watch?v=rOPoP4YWgmk" target="_blank">élargir mes horizons</a>. <span class="bold">Je recherche ainsi un CDI au sein d'une agence web</span> afin de continuer d'y développer mes compétences et surtout pouvoir échanger et apprendre plus encore aux côtés de collègues passionnés ( je sais me rendre sympathique avec des pancakes à la banane ).
+        </p>
+        <p data-aos=fade-up>
+            N'hésitez pas à jeter un oeil à mon <a href="/img/Grasset-Lolita.pdf">CV</a> et m'envoyer un <a href="mailto:grassetlolita@live.fr">mail</a> si mon profil vous intéresse ou si vous souhaitez simplement me dire coucou.
+        </p>
+        
       </div><!--/.about__text-->
     </div><!--/.about__content-->
   </section>

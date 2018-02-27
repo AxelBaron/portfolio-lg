@@ -7,13 +7,18 @@
   flex-direction: column;
   height: 100vh;
   background: url('../img/polygon.png') no-repeat top left;
+  overflow: hidden;
 
   @include respond-to('medium'){
     background-size: 200%;
   }
 
   @include respond-to('large'){
-    background-size: cover;
+    background-size: 180%;
+  }
+
+  @include respond-to('huge'){
+    background-size: 150%;
   }
 
   color: white;
@@ -25,14 +30,19 @@
     font-family: font('secondary');
     font-weight: 100;
     letter-spacing: 6px;
+    @include font-size(50px);
+    text-transform: uppercase;
+    color: color('background');
+    cursor: pointer;
+    margin: 100px 0 0;
 
     @include respond-to('small'){
-      @include font-size(80px);
+      @include font-size(70px);
       line-height: 60px;
     }
 
     @include respond-to('medium'){
-      @include font-size(90px);
+      @include font-size(100px);
       line-height: 80px;
     }
 
@@ -41,11 +51,10 @@
       line-height: 100px;
     }
 
-    text-transform: uppercase;
-    color: color('background');
-    cursor: pointer;
-    margin: 0;
-
+    @include respond-to('huge'){
+      @include font-size(100px);
+      line-height: 110px;
+    }
     img {
       width: 700px;
     }
@@ -53,29 +62,54 @@
 
   &__job {
     font-family: font('tertiary');
-    @include respond-to('medium'){
-      @include font-size(25px);
-    }
-
-    @include respond-to('large'){
-      @include font-size(29px);
-    }
+    text-align:center;
     font-weight: 400;
     margin: 0 0 10px;;
     letter-spacing: 0.2em;
-    line-height: 40px;
+    line-height: 10px;
+    @include font-size(16px);
+    
+    @include respond-to('small'){
+      @include font-size(22px);
+      line-height: 40px;
+    }
+    @include respond-to('medium'){
+      @include font-size(25px);
+    }
+    @include respond-to('large'){
+      @include font-size(27px);
+    }
+    @include respond-to('huge'){
+    }
+    
   }
 
   &:before{
     content: " ";
     display: block;
-    width: 60vh;
-    height: 60vh;
+    width: 40vh;
+    height: 40vh;
     background-color: color('background');
     opacity: 0;
     position: absolute;
     transform: rotate(45deg);
-    animation: apparition--semi 4.5s forwards, pulsation 1.5s infinite;
+    animation: apparition--semi 4.5s forwards, pulsation 1.5s infinite 5.5s;
+    @include respond-to('small'){
+      width: 50vh;
+      height: 50vh;
+    }
+    @include respond-to('medium'){
+      width: 50vh;
+      height: 50vh;
+    }
+    @include respond-to('large'){
+      width: 60vh;
+      height: 60vh;
+    }
+    @include respond-to('huge'){
+      width: 60vh;
+      height: 60vh;
+    }
   }
 }
 @keyframes apparition--semi {
@@ -83,14 +117,14 @@
     opacity: 0;
   }
   to{ 
-    opacity: 0.4; 
+    opacity: 0.3; 
   }
 }
 @keyframes pulsation{
   from{
-    box-shadow:0 0 0 -3px hsla(0,0%,100%,0),0 0 0 0 hsl(44,66%,57%)
+    box-shadow:0 0 0 -3px hsla(0,0%,100%,0),0 0 0 0 hsla(0,0%,100%,1)
   }
   to{
-    box-shadow:0 0 0 10px hsla(0,0%,100%,0),0 0 0 13px hsla(0,0%,100%,0)
+    box-shadow:0 0 0 10px hsla(0,0%,100%,0),0 0 0 23px hsla(0,0%,100%,0)
   }
 }

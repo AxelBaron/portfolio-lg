@@ -2,11 +2,35 @@
 
 .about {
   display: flex;
-  height: 100vh;
+  height: auto;
   background: url(../img/bg-bottom.svg) center bottom -50px no-repeat,
   url(../img/4017.jpg) repeat top center /cover;
-  background-size: 150%;
-  margin-left: 160px;
+  background-size: 300%;
+  margin-left: 0;
+  padding: 40px 10px 80px;
+
+  @include respond-to('small'){
+    height: auto;
+    align-items: flex-start;
+    background-size: 300%;
+    margin-left: 0;
+    padding: 40px 10px 80px;
+
+  }
+  @include respond-to('medium'){
+    height: auto;
+    align-items: flex-start;
+    background-size: 150%;
+    margin-left: 160px;
+  }
+  @include respond-to('large'){
+    height: 100vh;
+    align-items: center;
+  }
+  @include respond-to('huge'){
+    height: 100vh;
+    align-items: center;
+  }
 
   &__content {
     @include respond-to('small'){
@@ -21,7 +45,7 @@
     }
     max-width: 800px;
     height: 100%;
-    margin: -80px auto 0;
+    margin: 0 auto 0;
     padding: 0;
 
     display: flex;
@@ -31,6 +55,10 @@
   }
 
   &__img {
+    @include size(148px);
+    margin: 50px 0;
+    order: 2;
+
     @include respond-to('small'){
       @include size(200px);
       margin-top: 50px;
@@ -42,24 +70,46 @@
     
     &:before{
       content: "";
-      width: 20px;
-      height: 20px;
+      @include size(80px);
+      top: 24px;
+      left: 106px;
       background-color: color('foreground');;
       transform: rotate(45deg);
       position: absolute;
-      top: -50px;
-      left: 80px;
+      
+      @include respond-to('small'){
+        @include size(80px);
+        top: 24px;
+        left: 106px;
+      }
+      @include respond-to('medium'){
+        @include size(20px);
+        top: -50px;
+        left: 80px;
+      }
     }
     &:after{
       content: "";
-      width: 20px;
-      height: 20px;
+      @include size(80px);
+      top: 24px;
+      left: -60px;
       background-color: color('foreground');;
       transform: rotate(45deg);
       position: absolute;
-      bottom: -30px;
-      left: 80px;
+      
       z-index: 0;
+
+      @include respond-to('small'){
+        @include size(80px);
+        top: -30px;
+        left: -60px;
+      }
+      @include respond-to('medium'){
+        @include size(20px);
+        bottom: -30px;
+        left: 80px;
+      }
+
     }
     .image-element{
       width: 90%;
@@ -86,10 +136,18 @@
 
         &.hidden-hover{
           opacity: 1;
-          width: 270px;
-          height: 270px;
+          width: 200px;
+          height: 200px;
           top: -40px;
           left: -40px;
+          @include respond-to('small'){
+            width: 200px;
+            height: 200px;
+          }
+          @include respond-to('medium'){
+            width: 270px;
+            height: 270px;
+          }
         }
         &.hidden-nohover{
           opacity: 0;
@@ -107,9 +165,19 @@
 
   &__text {
     font-family: font('tertiary');
-    @include font-size(18px);
     letter-spacing: 0.2px;
     line-height: 140%;
+
+    @include respond-to('small'){
+      @include font-size(16px);
+    }
+    @include respond-to('medium'){
+      @include font-size(18px);
+    }
+    @include respond-to('large'){
+    }
+    @include respond-to('huge'){
+    }
 
     &--large{
       @include font-size(24px);
@@ -133,3 +201,4 @@
     }
   }
 }
+

@@ -76,12 +76,13 @@
             });
         },
 
-        // ITEM DE MENU ACTIF SELON SCROLL
+        // ITEM DE MENU ACTIF SELON SCROLL + AFFICHAGE MENU AU SECOND SLIDE
         active: function(){
              // récupération des éléments à rendre actifs 
             var activePresentation = document.getElementById('js-home');
             var activeProjects = document.getElementById('js-projects');
             var activeAbout = document.getElementById('js-about');
+            var activeSide = document.getElementById('js-side');
             // récupération la div
             var divPresentation = document.getElementById('one');
             var divProjects = document.getElementById('two');
@@ -93,24 +94,32 @@
             // récupération de la position verticale au scroll
             var pos = window.scrollY;
 
+            if(pos<=1){
+                activeSide.style.left = '-160px';
+            }
+
             if(pos<sommePresentation){
                 activePresentation.classList.add("js-active");
                 activeProjects.classList.remove("js-active");
                 activeAbout.classList.remove("js-active");
             }
             if(pos>sommePresentation && pos < sommeAbout){
-              activePresentation.classList.remove("js-active");
-              activeProjects.classList.add("js-active");
-              activeAbout.classList.remove("js-active");
+                activePresentation.classList.remove("js-active");
+                activeProjects.classList.add("js-active");
+                activeAbout.classList.remove("js-active");
             }
             if(pos>=sommeProjects){
-              activePresentation.classList.remove("js-active");
-              activeProjects.classList.remove("js-active");
-              activeAbout.classList.add("js-active");
+                activePresentation.classList.remove("js-active");
+                activeProjects.classList.remove("js-active");
+                activeAbout.classList.add("js-active");
+            }
+            if(pos>=sommePresentation){
+                activeSide.style.left = '0';
             }
         },
 
         // RESIZE
+        // Fonction qui permet de désactiver le scroll en slide par slide en-dessous de 1200px
         resize: function(){
             var larg = (window.innerWidth);
             if( larg < 1200 ){

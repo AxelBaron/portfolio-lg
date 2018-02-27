@@ -1,14 +1,26 @@
 // _m-projects.scss
 
 .projects {
+  background: url(../img/4017.jpg) repeat top center;
+  background-size: 300%;
+  display: flex;
+  align-items: center;
+  margin-left: 0;
+  height: auto;
+  padding: 40px 10px;
   
   @include respond-to('small'){
+    background-size: 300%;
     height: auto;
     align-items: flex-start;
+    margin-left: 0;
+    padding: 40px 10px;
   }
   @include respond-to('medium'){
+    background-size: 150%;
     height: auto;
     align-items: flex-start;
+    margin-left: 160px;
   }
   @include respond-to('large'){
     height: 100vh;
@@ -18,15 +30,20 @@
     height: 100vh;
     align-items: center;
   }
-  background: url(../img/4017.jpg) repeat top center;
-  background-size: 150%;
-  display: flex;
-  align-items: center;
-  margin-left: 160px;
 
   &__inside{
-
     margin: 0 auto;
+    @include respond-to('small'){
+      margin: 0 auto;
+    }
+    @include respond-to('medium'){
+      margin: -20px auto 0;
+    }
+    @include respond-to('large'){
+    }
+    @include respond-to('huge'){
+    }
+    
   }
 
   &__content {

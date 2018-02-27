@@ -1,26 +1,9 @@
 // _c-scroll.scss
 
 .scroll {
-  animation-name: apparition--full;
-  animation-duration: 1s;
-  animation-delay: 5s;
-  animation-fill-mode: forwards;
+  animation: apparition--full 1s 5s forwards;
   opacity: 0;
   height: 60px;
-
-  .presentation & {
-    @include respond-to('small'){
-      bottom: 80px;
-    }
-    @include respond-to('medium'){
-      bottom: 100px;
-    }
-    @include respond-to('large'){
-      bottom: 180px;
-    }
-    position: absolute;
-    
-  }
 
   &__anim {
     width: 2px;
@@ -28,7 +11,7 @@
     margin: auto;
     background: white;
     opacity: 0.5;
-    animation: scroll 3s infinite linear;
+    animation: scroll 1.5s infinite 5s linear;
   }
 
   p {
@@ -46,7 +29,7 @@
   }
   50% {
     height: 40px;
-    opacity: 1;
+    opacity: 0.5;
   }
   100% {
     height: 0;
