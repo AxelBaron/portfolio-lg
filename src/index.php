@@ -285,6 +285,11 @@
             </div>
           </div><!-- /.projects__-->
       </div>
+      <div class="more">
+        <div class="more__inside">
+          
+        </div>
+      </div>
   </section>
 
   <section class="about js-page" id="three">
@@ -298,7 +303,7 @@
       <div class="about__text">
         <h2 class="about__title title" data-aos=fade-up>A propos</h2>
         <p class="about__text--big" data-aos=fade-up>Hey (<a href="https://www.youtube.com/watch?v=KN1WlLVoHSQ" target"_blank">listen</a>),</p>
-        <p class="about__text--large" data-aos=fade-up>Je suis une développeuse front-end parisienne avec 2 ans d'expérience professionnelle.</p>
+        <p class="about__text--large" data-aos=fade-up>Je suis une développeuse front-end parisienne avec 2 années d'expérience professionnelle.</p>
         <p data-aos=fade-up>
             Je m'appelle Lolita Grasset et suis âgée de 25 ans. J'ai validé l'année dernière une formation en alternance de "Développeur multimédia" à l'école Multimédia. Je travaillais en parallèle au sein d'une agence web du nom d'<a href="http://www.anadore.fr/" title="anadore" target="_blank">Anadore</a>. Ils sont à la base de d'un événement de social networking nommé "Les rendez-vous de l'imaginaire" en partenariat avec Ulule. 
         </p>

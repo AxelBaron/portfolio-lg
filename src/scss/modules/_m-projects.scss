@@ -8,6 +8,7 @@
   margin-left: 0;
   height: auto;
   padding: 40px 10px;
+  position: relative;
   
   @include respond-to('small'){
     background-size: 300%;

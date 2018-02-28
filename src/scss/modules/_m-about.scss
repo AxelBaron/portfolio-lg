@@ -7,14 +7,14 @@
   url(../img/4017.jpg) repeat top center /cover;
   background-size: 300%;
   margin-left: 0;
-  padding: 40px 10px 80px;
+  padding: 40px 10px 100px;
 
   @include respond-to('small'){
     height: auto;
     align-items: flex-start;
     background-size: 300%;
     margin-left: 0;
-    padding: 40px 10px 80px;
+    padding: 40px 10px 100px;
 
   }
   @include respond-to('medium'){
@@ -91,7 +91,7 @@
     &:after{
       content: "";
       @include size(80px);
-      top: 24px;
+      bottom: 38px;
       left: -60px;
       background-color: color('foreground');;
       transform: rotate(45deg);
@@ -101,7 +101,7 @@
 
       @include respond-to('small'){
         @include size(80px);
-        top: -30px;
+        bottom: -30px;
         left: -60px;
       }
       @include respond-to('medium'){
