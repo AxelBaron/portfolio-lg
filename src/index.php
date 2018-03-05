@@ -287,7 +287,39 @@
       </div>
       <div class="more">
         <div class="more__inside">
-          
+          <div class="more__close">
+            <i class="fa fa-times" aria-hidden="true"></i>
+          </div>
+          <div class="more__content">
+            <h1 class="more__title">Mon projet</h1>
+            <h2 class="more__secondtitle">Mon accroche</h2>
+            <div class="doubleparts">
+              <div class="doubleparts__text">
+                <p class="text">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime quis facere cum aperiam quo, consequuntur, vitae ullam quas dicta autem eius fugiat nulla maiores. Aspernatur, odio totam. Exercitationem, dolorem error.
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime quis facere cum aperiam quo, consequuntur, vitae ullam quas dicta autem eius fugiat nulla maiores. Aspernatur, odio totam. Exercitationem, dolorem error.
+                </p>
+                <p class="text">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime quis facere cum aperiam quo, consequuntur, vitae ullam quas dicta autem eius fugiat nulla maiores. Aspernatur, odio totam. Exercitationem, dolorem error.
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime quis facere cum aperiam quo, consequuntur, vitae ullam quas dicta autem eius fugiat nulla maiores. Aspernatur, odio totam. Exercitationem, dolorem error.
+                </p>
+
+                <p class="link">
+                  <a class="link__button" href="">Voir le Site</a>
+                  <a class="link__button" href="">Voir le Behance</a>
+                </p>
+
+              </div>
+              <div class="doubleparts__images">
+                <img src="http://claudiocalautti.cc/img/projects/lonelyleap/desktop.jpg" alt="">
+              </div>
+            </div><!-- .doubleparts -->
+            <div class="imagespart">
+              <img src="http://claudiocalautti.cc/img/projects/lonelyleap/desktop-2.jpg" alt="">
+              <img src="http://claudiocalautti.cc/img/projects/lonelyleap/tablet-2.jpg" alt="">
+              <img src="http://claudiocalautti.cc/img/projects/lonelyleap/phone-2.jpg" alt="">
+            </div>
+          </div>
         </div>
       </div>
   </section>

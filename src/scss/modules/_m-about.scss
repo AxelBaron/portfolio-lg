@@ -164,15 +164,15 @@
   }
 
   &__text {
-    font-family: font('tertiary');
-    letter-spacing: 0.2px;
+    font-family: font('primary');
+    letter-spacing: 0.1px;
     line-height: 140%;
 
     @include respond-to('small'){
-      @include font-size(16px);
+      @include font-size(14px);
     }
     @include respond-to('medium'){
-      @include font-size(18px);
+      @include font-size(16px);
     }
     @include respond-to('large'){
     }
