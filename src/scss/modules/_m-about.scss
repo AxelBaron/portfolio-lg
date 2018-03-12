@@ -157,46 +157,6 @@
           top: -40px;
           left: -40px;
         }
-
-      }
-     
-    }
-  }
-
-  &__text {
-    font-family: font('primary');
-    letter-spacing: 0.1px;
-    line-height: 140%;
-
-    @include respond-to('small'){
-      @include font-size(14px);
-    }
-    @include respond-to('medium'){
-      @include font-size(16px);
-    }
-    @include respond-to('large'){
-    }
-    @include respond-to('huge'){
-    }
-
-    &--large{
-      @include font-size(24px);
-      margin: 0;
-    }
-
-    &--big{
-      @include font-size(30px);
-      margin: 0 0 15px;
-    }
-    
-    .bold{
-      font-weight: 600;
-    }
-    a{
-      color: #BD4D61;
-      text-decoration:none;
-      &:hover{
-        text-decoration: underline;
       }
     }
   }

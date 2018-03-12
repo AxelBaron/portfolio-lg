@@ -291,17 +291,21 @@
             <i class="fa fa-times" aria-hidden="true"></i>
           </div>
           <div class="more__content">
-            <h1 class="more__title">Mon projet</h1>
-            <h2 class="more__secondtitle">Mon accroche</h2>
             <div class="doubleparts">
               <div class="doubleparts__text">
+                <h1 class="title">Les curieuses expositions</h1>
+                <p class="text--big">Mon projet</p>
+                <p class="text--large">Mon accroche</p>
                 <p class="text">
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime quis facere cum aperiam quo, consequuntur, vitae ullam quas dicta autem eius fugiat nulla maiores. Aspernatur, odio totam. Exercitationem, dolorem error.
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime quis facere cum aperiam quo, consequuntur, vitae ullam quas dicta autem eius fugiat nulla maiores. Aspernatur, odio totam. Exercitationem, dolorem error.
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime quis facere cum aperiam quo, consequuntur, vitae ullam quas dicta autem eius fugiat nulla maiores.
                 </p>
                 <p class="text">
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime quis facere cum aperiam quo, consequuntur, vitae ullam quas dicta autem eius fugiat nulla maiores. Aspernatur, odio totam. Exercitationem, dolorem error.
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime quis facere cum aperiam quo, consequuntur, vitae ullam quas dicta autem eius fugiat nulla maiores. Aspernatur, odio totam. Exercitationem, dolorem error.
+                </p>
+
+                <p class="doubleparts__text__technologies text">
+                  <span class="bold">Technologies :</span> HTML, CSS, JS, Jquery, Git, PHP, Wordpress
                 </p>
 
                 <p class="link">
@@ -311,14 +315,11 @@
 
               </div>
               <div class="doubleparts__images">
-                <img src="http://claudiocalautti.cc/img/projects/lonelyleap/desktop.jpg" alt="">
+                <img class="doubleparts__images--desktop" src="http://claudiocalautti.cc/img/projects/lonelyleap/desktop-2.jpg" alt="">
+                <img class="doubleparts__images--tablet" src="http://claudiocalautti.cc/img/projects/lonelyleap/tablet-2.jpg" alt="">
+                <img class="doubleparts__images--phone" src="http://claudiocalautti.cc/img/projects/lonelyleap/phone-2.jpg" alt="">
               </div>
             </div><!-- .doubleparts -->
-            <div class="imagespart">
-              <img src="http://claudiocalautti.cc/img/projects/lonelyleap/desktop-2.jpg" alt="">
-              <img src="http://claudiocalautti.cc/img/projects/lonelyleap/tablet-2.jpg" alt="">
-              <img src="http://claudiocalautti.cc/img/projects/lonelyleap/phone-2.jpg" alt="">
-            </div>
           </div>
         </div>
       </div>
@@ -334,15 +335,15 @@
       </div>
       <div class="about__text">
         <h2 class="about__title title" data-aos=fade-up>A propos</h2>
-        <p class="about__text--big" data-aos=fade-up>Hey (<a href="https://www.youtube.com/watch?v=KN1WlLVoHSQ" target"_blank">listen</a>),</p>
-        <p class="about__text--large" data-aos=fade-up>Je suis une développeuse front-end parisienne avec 2 années d'expérience professionnelle.</p>
-        <p data-aos=fade-up>
+        <p class="text text--big" data-aos=fade-up>Hey (<a href="https://www.youtube.com/watch?v=KN1WlLVoHSQ" target"_blank">listen</a>),</p>
+        <p class="text text--large" data-aos=fade-up>Je suis une développeuse front-end parisienne avec 2 années d'expérience professionnelle.</p>
+        <p class="text" data-aos=fade-up>
             Je m'appelle Lolita Grasset et suis âgée de 25 ans. J'ai validé l'année dernière une formation en alternance de "Développeur multimédia" à l'école Multimédia. Je travaillais en parallèle au sein d'une agence web du nom d'<a href="http://www.anadore.fr/" title="anadore" target="_blank">Anadore</a>. Ils sont à la base de d'un événement de social networking nommé "Les rendez-vous de l'imaginaire" en partenariat avec Ulule. 
         </p>
-        <p data-aos=fade-up>
+        <p class="text" data-aos=fade-up>
             Je travaille actuellement pour l'entreprise Fastmag mais souhaite <a href="https://www.youtube.com/watch?v=rOPoP4YWgmk" target="_blank">élargir mes horizons</a>. <span class="bold">Je recherche ainsi un CDI au sein d'une agence web</span> afin de continuer d'y développer mes compétences et surtout pouvoir échanger et apprendre plus encore aux côtés de collègues passionnés ( je sais me rendre sympathique avec des pancakes à la banane ).
         </p>
-        <p data-aos=fade-up>
+        <p class="text" data-aos=fade-up>
             N'hésitez pas à jeter un oeil à mon <a href="/img/Grasset-Lolita.pdf">CV</a> et m'envoyer un <a href="mailto:grassetlolita@live.fr">mail</a> si mon profil vous intéresse ou si vous souhaitez simplement me dire coucou.
         </p>
         

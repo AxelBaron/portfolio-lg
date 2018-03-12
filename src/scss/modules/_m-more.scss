@@ -14,12 +14,14 @@
 		cursor: pointer;
 	}
 	&__inside{
-		width: 90%;
-		height: 80%;
+		width: 80%;
+		height: 60%;
+		padding: 3% 0 0 0;
 		position: absolute;
-		top: 10%;
-		left: 5%;
+		top: 20%;
+		left: 10%;
 		background-color: color('background');
+		display: flex;
 		&::before{
 			content: "";
 			display: block;
@@ -44,7 +46,7 @@
 		    border-right: 150px solid #FF5450;
 			opacity: 0.8;
 			position: absolute;
-			top: 50%;
+			top: 60%;
 			right: 0;
 			z-index: 0;
 		}
@@ -59,51 +61,69 @@
 		z-index: 1;
 		margin-bottom: 10px;
 		&__text{
-			width: 60%;
-			.text{
-				line-height: 140%;
-				letter-spacing: 0.1px;
-			}
+			width: 40%;
 			.link{
-				margin-top: 20px;
-				text-align:right;;
+				margin-top: 30px;
+				text-align:center;
 				&__button{
 					color: #FF5450;
+					display: inline-block;
 					text-decoration: none;
-					padding-bottom: 2px;
-					border-bottom: 1px solid transparent;
-					transition: border-bottom 0.3s;
 					margin-left: 10px;
-					&:hover{
-						border-bottom: 1px solid #FF5450;
+					&::after{
+						content: "";
+						display: block;
+						height: 1px;
+						width: 0;
+						background-color: #FF5450;
+						transition: width 0.3s;
+					}
+					&:hover::after{
+						width: 100%;
 					}
 				}
 			}
+			&__technologies{
+				@include font-size(12px);
+			}
+
 		}
 		&__images{
-			width: 40%;
+			width: 60%;
+			padding: 0 0 0 2%;
 			text-align: center;
+			perspective: 2000px;
+			-webkit-perspective: 2000px;
+			position: relative;
 			img{
-				width: 100%;
-				max-width: 450px;
+				max-width: 800px;
 				height: auto;
+				position: absolute;
+				display: block;
+				-webkit-box-shadow: 1px 0px 0 #fff,0 0 30px rgba(0,95,99,0.2);
+				box-shadow: 1px 0px 0 #fff,0 0 30px rgba(0,95,99,0.2);
+				transform: rotateY(-30deg) rotateX(5deg) translateX(-50%);
+				-webkit-transform: rotateY(-30deg) rotateX(5deg) translateX(-50%);
+				-webkit-transform-origin: left bottom;
+				-ms-transform-origin: left bottom;
+				transform-origin: left bottom;
 			}
-		}
-	}
-	.imagespart{
-		display: flex;
-		align-items: flex-start;
-		align-content: center;
-		position: relative;
-		z-index: 1;
-		text-align: center;
-		margin-top: 30px;
-		img{
-			width: auto;
-			margin-right: 10px;
-			max-height: 500px;
-			&:last-child{
-				margin-right: 0;
+			&--desktop{
+				width: 95%;
+				top: 5%;
+				left: 50%;
+			}
+			&--tablet{
+				width: 40%;
+				top: 30%;
+				left: 20%;
+				z-index: 1;
+			}
+			&--phone{
+				width: 20%;
+				top: 60%;
+				left: 40%;
+				z-index: 2;
 			}
 		}
 	}
