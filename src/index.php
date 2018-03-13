@@ -294,11 +294,10 @@
             <div class="doubleparts">
               <div class="doubleparts__text">
                 <h1 class="title">Les curieuses expositions</h1>
-                <p class="text--big">Mon projet</p>
                 <p class="text--large">Mon accroche</p>
                 <p class="text">
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime quis facere cum aperiam quo, consequuntur, vitae ullam quas dicta autem eius fugiat nulla maiores. Aspernatur, odio totam. Exercitationem, dolorem error.
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime quis facere cum aperiam quo, consequuntur, vitae ullam quas dicta autem eius fugiat nulla maiores.
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                 </p>
                 <p class="text">
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime quis facere cum aperiam quo, consequuntur, vitae ullam quas dicta autem eius fugiat nulla maiores. Aspernatur, odio totam. Exercitationem, dolorem error.
