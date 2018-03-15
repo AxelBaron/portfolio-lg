@@ -24,10 +24,16 @@
     }
     @include respond-to('medium'){
     	display: flex;
+    	left: -160px;
+		width: 160px;
     }
     @include respond-to('large'){
+    	left: -160px;
+		width: 160px;
     }
     @include respond-to('huge'){
+    	left: -200px;
+		width: 200px;
     }
 	&__title{
 		padding: 0 10px;

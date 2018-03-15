@@ -34,7 +34,7 @@
         <span class="menu__item__label">E.T téléphone maison</span>
       </a>
       <a href="#two" class="menu__item js-scrollTo" id="js-projects">
-        <span class="menu__item__name">Projets</span>
+        <span class="menu__item__name">Projets</span><br />
         <span class="menu__item__label">Métro dodo</span>
       </a>
       <a href="#three" class="menu__item js-scrollTo" id="js-about">
