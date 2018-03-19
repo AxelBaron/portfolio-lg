@@ -34,7 +34,7 @@
         <span class="menu__item__label">E.T téléphone maison</span>
       </a>
       <a href="#two" class="menu__item js-scrollTo" id="js-projects">
-        <span class="menu__item__name">Projets</span>
+        <span class="menu__item__name">Projets</span><br />
         <span class="menu__item__label">Métro dodo</span>
       </a>
       <a href="#three" class="menu__item js-scrollTo" id="js-about">
@@ -294,10 +294,9 @@
             <div class="doubleparts">
               <div class="doubleparts__text">
                 <p class="text--big">Mon projet</p>
-                <p class="text--large">Mon accroche</p>
                 <p class="text">
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime quis facere cum aperiam quo, consequuntur, vitae ullam quas dicta autem eius fugiat nulla maiores. Aspernatur, odio totam. Exercitationem, dolorem error.
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime quis facere cum aperiam quo, consequuntur, vitae ullam quas dicta autem eius fugiat nulla maiores.
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                 </p>
                 <p class="text">
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime quis facere cum aperiam quo, consequuntur, vitae ullam quas dicta autem eius fugiat nulla maiores. Aspernatur, odio totam. Exercitationem, dolorem error.
