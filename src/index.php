@@ -293,7 +293,6 @@
           <div class="more__content">
             <div class="doubleparts">
               <div class="doubleparts__text">
-                <h1 class="title">Les curieuses expositions</h1>
                 <p class="text--big">Mon projet</p>
                 <p class="text--large">Mon accroche</p>
                 <p class="text">
