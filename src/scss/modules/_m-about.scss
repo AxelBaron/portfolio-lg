@@ -60,12 +60,14 @@
 
     @include respond-to('small'){
       @include size(200px);
-        margin-top: 50px;
+      margin-top: 50px;
+      display: none;
     }
     @include respond-to('large'){
       display: block;
       @include size(150px);
-        margin-top: 30px;
+      margin-top: 30px;
+      display: none;
     }
     @include respond-to('huge'){
       @include size(200px);
