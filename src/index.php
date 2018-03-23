@@ -138,33 +138,31 @@
                   </p>
                 </div>
               </div>
-
               <div class="losange">
-                  <div class="losange__container">
-                    <div class="losange__container__inside losange__container__inside--riodelvin">
-                      <div class="losange__container__inside__side losange__container__inside__side--face">
-                        <img src="img/riodelvin.png" alt="" class="image">
-                      </div>
-                      <div class="losange__container__inside__side losange__container__inside__side--back">
-                      </div>
+                <div class="losange__container">
+                  <div class="losange__container__inside losange__container__inside--riodelvin">
+                    <div class="losange__container__inside__side losange__container__inside__side--face">
+                      <img src="img/riodelvin.png" alt="" class="image">
+                    </div>
+                    <div class="losange__container__inside__side losange__container__inside__side--back">
                     </div>
                   </div>
-                  <div class="losange__text">
-                    <h3 class="losange__text__title" >
-                      <a class="losange__text__title__link" href="http://lolitagrasset.com/RioDelVin/" target="_blank" title="site rio del vin">Rio del Vin</a>
-                    </h3>
-                    <h4 class="losange__text__subtitle">Site vitrine</h4>
-                    <p class="losange__text__description">Intégration web / Dev. front 
-                      <span class="losange__text__description__container">
-                        <a class="losange__text__description__container__link" href="http://lolitagrasset.com/RioDelVin/" target="_blank">site</a>
-                      </span>
-                    </p>
+                </div>
+                <div class="losange__text">
+                  <h3 class="losange__text__title" >
+                    <a class="losange__text__title__link" href="http://lolitagrasset.com/RioDelVin/" target="_blank" title="site rio del vin">Rio del Vin</a>
+                  </h3>
+                  <h4 class="losange__text__subtitle">Site vitrine</h4>
+                  <p class="losange__text__description">Intégration web / Dev. front 
+                    <span class="losange__text__description__container">
+                      <a class="losange__text__description__container__link" href="http://lolitagrasset.com/RioDelVin/" target="_blank">site</a>
+                    </span>
+                  </p>
                 </div>
               </div>
-
             </div>
+            
             <div class="grid__inside grid__inside--three-items" data-aos=fade-up>
-      
               <div class="losange">
                 <div class="losange__container">
                   <div class="losange__container__inside osange__container__inside--killtilt">
@@ -187,7 +185,6 @@
                   </p>
                 </div>
               </div>
-
               <div class="losange">
                 <div class="losange__container">
                   <div class="losange__container__inside losange__container__inside--villagemap">
@@ -210,7 +207,6 @@
                   </p>
                 </div>
               </div>
-
               <div class="losange losange--last-one">
                 <div class="losange__container">
                   <div class="losange__container__inside losange__container__inside--curieusesexpositions">
@@ -233,10 +229,9 @@
                   </p>
                 </div>
               </div>
-
             </div>
-            <div class="grid__inside" data-aos=fade-up>
 
+            <div class="grid__inside" data-aos=fade-up>
               <div class="losange">
                 <div class="losange__container">
                   <div class="losange__container__inside losange__container__inside--anadore">
@@ -259,27 +254,26 @@
                   </p>
                 </div>
               </div>
-
               <div class="losange">
-                  <div class="losange__container">
-                    <div class="losange__container__inside losange__container__inside--codepen">
-                      <div class="losange__container__inside__side losange__container__inside__side--face">
-                        <img src="img/codepen.png" alt="" class="image">
-                      </div>
-                      <div class="losange__container__inside__side losange__container__inside__side--back">
-                      </div>
+                <div class="losange__container">
+                  <div class="losange__container__inside losange__container__inside--codepen">
+                    <div class="losange__container__inside__side losange__container__inside__side--face">
+                      <img src="img/codepen.png" alt="" class="image">
+                    </div>
+                    <div class="losange__container__inside__side losange__container__inside__side--back">
                     </div>
                   </div>
-                  <div class="losange__text">
-                    <h3 class="losange__text__title losange__text__title--two-lines">
-                      <a class="losange__text__title__link" href="https://codepen.io/Skyz0fraise/" title="Codepen" target="_blank">Je  <br /> bidouille</a>
-                    </h3>
-                    <h4 class="losange__text__subtitle">des bouts de code</h4>
-                    <p class="losange__text__description">Par ici et par là
-                      <span class="losange__text__description__container">
-                        <a class="losange__text__description__container__link" href="https://codepen.io/Skyz0fraise/" target="_blank">sur codepen</a>
-                      </span>
-                    </p>
+                </div>
+                <div class="losange__text">
+                  <h3 class="losange__text__title losange__text__title--two-lines">
+                    <a class="losange__text__title__link" href="https://codepen.io/Skyz0fraise/" title="Codepen" target="_blank">Je  <br /> bidouille</a>
+                  </h3>
+                  <h4 class="losange__text__subtitle">des bouts de code</h4>
+                  <p class="losange__text__description">Par ici et par là
+                    <span class="losange__text__description__container">
+                      <a class="losange__text__description__container__link" href="https://codepen.io/Skyz0fraise/" target="_blank">sur codepen</a>
+                    </span>
+                  </p>
                 </div>
               </div>
             </div>

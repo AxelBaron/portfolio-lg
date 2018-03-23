@@ -4,18 +4,13 @@
   margin: 0 30px;
 
   @include respond-to('large'){
-    margin: -30px 30px;
-  }
-  @include respond-to('huge'){
     margin: -50px 30px;
   }
+
   &--last-one{
     margin: 0 30px;
 
     @include respond-to('large'){
-      margin: -70px 30px;
-    }
-    @include respond-to('huge'){
       margin: -50px 30px;
     }
   }
