@@ -288,7 +288,7 @@
       <div class="more">
         <div class="more__inside">
           <div class="more__close">
-            <i class="fa fa-times" aria-hidden="true"></i>
+            <i class="fa fa-times js-close" aria-hidden="true"></i>
           </div>
           <div class="more__content">
             <div class="doubleparts">

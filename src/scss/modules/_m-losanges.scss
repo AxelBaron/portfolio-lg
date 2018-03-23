@@ -1,26 +1,17 @@
 // _m-losanges.scss
 .losange{
   position: relative;
-  
-  @include respond-to('small'){
-    margin: 0 30px;
-  }
-  @include respond-to('medium'){
-    margin: 0 30px;
-  }
+  margin: 0 30px;
+
   @include respond-to('large'){
-    margin: 0 30px;
+    margin: -30px 30px;
   }
   @include respond-to('huge'){
     margin: -50px 30px;
   }
   &--last-one{
-    @include respond-to('small'){
-      margin: 0 30px;
-    }
-    @include respond-to('medium'){
-      margin: 0 30px;
-    }
+    margin: 0 30px;
+
     @include respond-to('large'){
       margin: -70px 30px;
     }

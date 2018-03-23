@@ -16,7 +16,10 @@
                 easing: 'ease-in-sine',
                 delay: 100
             });
+
             app.scrollTo();
+            app.closeModal();
+
             var larg = (window.innerWidth);
             if( larg > 1200 ){
                 /* Smartscroll external library */
@@ -36,6 +39,8 @@
                 };
                 $.smartscroll(options);
             }
+
+
         },
 
         copyright: function () {
@@ -64,6 +69,15 @@
                     }
                 });
             }, delay);
+        },
+
+        //MODAL
+        closeModal: function(){
+            $('.js-close').on('click', function(){
+                console.log("close");
+                $('.more').removeClass("display-block");
+                $('.more').addClass("display-none");
+            });
         },
 
         // MENU SCROLLTO

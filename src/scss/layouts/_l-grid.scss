@@ -4,12 +4,6 @@
 .grid{
 	display: flex;
 	flex-flow: column wrap;
-	@include respond-to('small'){
-		padding: 40px 40px 0;
-    }
-    @include respond-to('medium'){
-		padding: 40px 40px 0;
-    }
 	&__inside{
 	  display: flex;
 	  flex-flow: row wrap;
@@ -27,14 +21,9 @@
 	    	justify-content: center;
 	    }
 	  	&--three-items{
-	  		@include respond-to('small'){
-				order: 3;
-		    }
-		    @include respond-to('medium'){
-				order: 3;
-		    }
+	  		order: 3;
 		    @include respond-to('large'){
-				order: 3;
+				order: 0;
 		    }
 		    @include respond-to('huge'){
 		    	order: 0;

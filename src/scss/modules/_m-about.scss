@@ -26,19 +26,17 @@
   @include respond-to('large'){
     height: 100vh;
     align-items: center;
+    padding: 0;
   }
   @include respond-to('huge'){
     height: 100vh;
     align-items: center;
+    
   }
 
   &__content {
     @include respond-to('small'){
       padding: 0 40px;
-    }
-    @include respond-to('medium'){
-    }
-    @include respond-to('large'){
     }
     @include respond-to('huge'){
       padding: 0;
@@ -55,14 +53,18 @@
   }
 
   &__img {
+    display: none;
     @include size(148px);
     margin: 50px 0;
     order: 2;
 
     @include respond-to('small'){
       @include size(200px);
-      margin-top: 50px;
-      order: 2;
+        margin-top: 50px;
+    }
+    @include respond-to('large'){
+      @include size(150px);
+        margin-top: 30px;
     }
 
     align-self: center;
@@ -84,8 +86,8 @@
       }
       @include respond-to('medium'){
         @include size(20px);
-        top: -50px;
-        left: 80px;
+        top: -35px;
+        left: 57px;
       }
     }
     &:after{
@@ -106,8 +108,8 @@
       }
       @include respond-to('medium'){
         @include size(20px);
-        bottom: -30px;
-        left: 80px;
+        bottom: -20px;
+        left: 57px;
       }
 
     }
@@ -136,15 +138,14 @@
 
         &.hidden-hover{
           opacity: 1;
-          width: 200px;
-          height: 200px;
-          top: -40px;
-          left: -40px;
-          @include respond-to('small'){
-            width: 200px;
-            height: 200px;
-          }
-          @include respond-to('medium'){
+          width: auto;
+          height: 144%;
+          top: -35px;
+          left: -25px;
+
+          @include respond-to('huge'){
+            top: -40px;
+            left: -40px;
             width: 270px;
             height: 270px;
           }
