@@ -6,12 +6,18 @@
   @include respond-to('large'){
     margin: -50px 30px;
   }
+  @include respond-to('huge'){
+    margin: -50px 50px;
+  }
 
   &--last-one{
     margin: 0 30px;
 
     @include respond-to('large'){
       margin: -50px 30px;
+    }
+    @include respond-to('huge'){
+      margin: -50px 50px;
     }
   }
   &__container{
@@ -20,8 +26,10 @@
     transform: rotate(-45deg);
     
     &__inside{
-      width: 200px;
-      height: 200px;
+      @include size(200px);
+      @include respond-to('huge'){
+        @include size(230px);
+      }
       overflow: hidden;
 
       &--chibiakihabara{
