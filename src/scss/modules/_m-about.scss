@@ -64,9 +64,6 @@
       display: none;
     }
     @include respond-to('large'){
-      display: block;
-      @include size(150px);
-      margin-top: 30px;
       display: none;
     }
     @include respond-to('huge'){
