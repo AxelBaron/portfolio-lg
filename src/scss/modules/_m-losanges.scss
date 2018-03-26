@@ -1,8 +1,11 @@
 // _m-losanges.scss
 .losange{
   position: relative;
-  margin: 0 30px;
+  margin: 0;
 
+  @include respond-to('medium'){
+    margin: 0 30px;
+  }
   @include respond-to('large'){
     margin: -50px 30px;
   }
@@ -11,8 +14,11 @@
   }
 
   &--last-one{
-    margin: 0 30px;
+    margin: 0;
 
+    @include respond-to('medium'){
+      margin: 0 30px;
+    }
     @include respond-to('large'){
       margin: -50px 30px;
     }
@@ -21,9 +27,13 @@
     }
   }
   &__container{
-    margin: 43px;
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
-    transform: rotate(-45deg);
+    
+
+    @include respond-to('medium'){
+      margin: 43px;
+      transform: rotate(-45deg);
+    }
     
     &__inside{
       @include size(200px);
@@ -98,6 +108,10 @@
     backface-visibility: hidden;
     -webkit-backface-visibility: hidden;
     transition: 1s;
+
+    @include respond-to('large'){
+      margin: -50px 30px;
+    }
     &__title{
       font-family: font('tertiary');
       font-weight: 400;
