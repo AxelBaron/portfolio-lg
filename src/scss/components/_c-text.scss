@@ -14,16 +14,24 @@
   @include respond-to('huge'){
   }
   &--large{
-    @include font-size(24px);
+    @include font-size(20px);
     margin: 0;
+
+    @include respond-to('medium'){
+      @include font-size(24px);
+    }
     @include respond-to('large'){
       @include font-size(20px);
     }
   }
 
   &--big{
-    @include font-size(30px);
+    @include font-size(25px);
     margin: 0 0 10px;
+
+    @include respond-to('medium'){
+      @include font-size(30px);
+    }
     @include respond-to('large'){
       @include font-size(25px);
     }

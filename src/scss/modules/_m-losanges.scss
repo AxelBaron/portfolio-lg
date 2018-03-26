@@ -1,8 +1,11 @@
 // _m-losanges.scss
 .losange{
   position: relative;
-  margin: 0 30px;
+  margin: 0;
 
+  @include respond-to('medium'){
+    margin: 0 30px;
+  }
   @include respond-to('large'){
     margin: -50px 30px;
   }
@@ -11,8 +14,11 @@
   }
 
   &--last-one{
-    margin: 0 30px;
+    margin: 0;
 
+    @include respond-to('medium'){
+      margin: 0 30px;
+    }
     @include respond-to('large'){
       margin: -50px 30px;
     }
@@ -21,9 +27,13 @@
     }
   }
   &__container{
-    margin: 43px;
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
-    transform: rotate(-45deg);
+    
+
+    @include respond-to('medium'){
+      margin: 43px;
+      transform: rotate(-45deg);
+    }
     
     &__inside{
       @include size(200px);
@@ -93,19 +103,26 @@
     height: 60%;
     margin: 20%;
     text-align: center;
-    font-family: "Open Sans Condensed", sans-serif;
+    font-family: font('tertiary');
     transform: rotate3D(0, 1, 0, 180deg);
     backface-visibility: hidden;
     -webkit-backface-visibility: hidden;
     transition: 1s;
+
+    @include respond-to('large'){
+      margin: -50px 30px;
+    }
     &__title{
       font-family: font('tertiary');
       font-weight: 400;
-      font-size: 20px;
+      @include font-size(20px);
       text-transform: uppercase;
       letter-spacing: 2px;
       margin: 0 15px;
       padding: 35px 0 0 0;
+      @include respond-to('huge'){
+        @include font-size(24px);
+      }
       &--two-lines{
         padding: 20px 0 0 0;
       }
@@ -121,15 +138,21 @@
     &__subtitle{
       font-family: font('tertiary');
       letter-spacing: 2px;
-      font-size: 16px;
+      @include font-size(16px);
       font-weight: 400;
       margin: 5px 0 5px 0;
+      @include respond-to('huge'){
+        @include font-size(18px);
+      }
     }
     &__description{
-      font-size: 11px;
+      @include font-size(11px);
       margin: 10px 0 5px;
       padding: 10px 5px;
       border-top: 1px solid rgba(0,0,0,1);
+      @include respond-to('huge'){
+        @include font-size(14px);
+      }
       &__container{
         display: block;
         &__link{
@@ -139,11 +162,14 @@
           font-weight: bold;
           text-transform: uppercase;
           text-decoration: none;
-          font-size: 9px;
+          @include font-size(10px);
           letter-spacing: 1px;
           padding-top: 4px;
           font-family: 'Open Sans Condensed', Arial, sans-serif;
           transition: 0.3s;
+          @include respond-to('huge'){
+            @include font-size(14px);
+          }
           &:hover{
             color: #BD4D61;
           }
