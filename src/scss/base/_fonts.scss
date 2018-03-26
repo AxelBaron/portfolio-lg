@@ -2,9 +2,8 @@
 /// Google Fonts
 
 @include font-face('Quicksand', '../../fonts/quicksand/quicksand-light-webfont', 200, normal, woff woff2);
-@include font-face('Quicksand', '../../fonts/quicksand/quicksand-regular-webfont', 300, normal, woff woff2);
-@include font-face('Quicksand', '../../fonts/quicksand/quicksand-medium-webfont', 400, normal, woff woff2);
-@include font-face('Quicksand', '../../fonts/quicksand/quicksand-bold-webfont', 500, normal, woff woff2);
+@include font-face('Quicksand', '../../fonts/quicksand/quicksand-regular-webfont', 400, normal, woff woff2);
+@include font-face('Quicksand', '../../fonts/quicksand/quicksand-medium-webfont', 500, normal, woff woff2);
 
 @include font-face('Matchbook', '../../fonts/matchbook/matchbook-webfont', 400, normal, woff woff2);
 

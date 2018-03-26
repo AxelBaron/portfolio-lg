@@ -4,11 +4,18 @@
   font-family: font('tertiary');
   @include font-size(40px);
   text-transform: uppercase;
-  margin: 0 0 20px 0;
   padding-bottom: 5px;
   border-bottom: 2px solid color('foreground');
   font-weight: 400;
   position: relative;
+  margin: 20px 0px;
+  padding: 10px 0;
+
+
+  @include respond-to('medium'){
+    margin: 0 0 20px 0;
+  }
+
 
   &--projects{
     @include respond-to('small'){
