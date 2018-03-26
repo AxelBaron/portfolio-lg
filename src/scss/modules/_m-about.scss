@@ -3,7 +3,7 @@
 .about {
   display: flex;
   height: auto;
-  background: url(../img/bg-bottom.svg) center bottom -50px no-repeat,
+  background: url(../img/bg-bottom.svg) center bottom -100px no-repeat,
   url(../img/4017.jpg) repeat top center /cover;
   background-size: 300%;
   margin-left: 0;
@@ -41,7 +41,7 @@
     @include respond-to('huge'){
       padding: 0;
     }
-    max-width: 800px;
+    max-width: 900px;
     height: 100%;
     margin: 0 auto 0;
     padding: 0;
@@ -70,6 +70,7 @@
       display: none;
     }
     @include respond-to('huge'){
+      display: block;
       @include size(200px);
     }
 

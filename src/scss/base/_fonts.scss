@@ -1,23 +1,13 @@
 // _fonts.scss
 /// Google Fonts
 
-
-// Mixin version
-@include font-face('Lato', '../../fonts/lato/lato-400', 400, normal);
-@include font-face('Lato', '../../fonts/lato/lato-400i', 400, italic);
+@include font-face('Quicksand', '../../fonts/quicksand/Quicksand-Light', 200, normal, woff woff2);
+@include font-face('Quicksand', '../../fonts/quicksand/Quicksand-Regular', 300, normal, woff woff2);
+@include font-face('Quicksand', '../../fonts/quicksand/Quicksand-Medium', 400, normal, woff woff2);
+@include font-face('Quicksand', '../../fonts/quicksand/Quicksand-Bold', 500, normal, woff woff2);
 
 @include font-face('Matchbook', '../../fonts/matchbook/matchbook-webfont', 400, normal, woff woff2);
 
 @include font-face('Open Sans Condensed', '../../fonts/opensanscondensed/opensanscond-light', 400, normal, woff woff2);
 @include font-face('Open Sans Condensed', '../../fonts/opensanscondensed/opensanscond-italic', 400, italic, woff woff2);
 @include font-face('Open Sans Condensed', '../../fonts/opensanscondensed/opensanscond-bold', 800, normal, woff woff2);
-
-// FOR DEMO STYLES ---------------------------------------------------------------------------------------
-@include font-face('Butler', '../../fonts/demo/butler/butler-100', 200, normal, woff woff2);
-@include font-face('Butler', '../../fonts/demo/butler/butler-300', 300, normal, woff woff2);
-@include font-face('Butler', '../../fonts/demo/butler/butler-400', 400, normal, woff woff2);
-@include font-face('Butler', '../../fonts/demo/butler/butler-500', 500, normal, woff woff2);
-@include font-face('Butler', '../../fonts/demo/butler/butler-700', 700, normal, woff woff2);
-@include font-face('Butler', '../../fonts/demo/butler/butler-800', 800, normal, woff woff2);
-@include font-face('Butler', '../../fonts/demo/butler/butler-900', 900, normal, woff woff2);
-// ----------------------------------------------------------------------------------------------------
