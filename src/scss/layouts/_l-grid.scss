@@ -9,10 +9,10 @@
 	  flex-flow: row wrap;
 	  justify-content: center;
 		@include respond-to('small'){
-			justify-content: flex-start;
+			justify-content: center;
 	    }
 	    @include respond-to('medium'){
-			justify-content: flex-start;
+			justify-content: center;
 	    }
 	    @include respond-to('large'){
 			justify-content: center;

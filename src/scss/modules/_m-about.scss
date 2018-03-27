@@ -113,7 +113,7 @@
 
       @include respond-to('small'){
         @include size(80px);
-        bottom: -30px;
+        bottom: 40px;
         left: -60px;
       }
       @include respond-to('medium'){
