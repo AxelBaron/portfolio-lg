@@ -113,8 +113,8 @@
       <div class="projects__inside">
         <div class="projects__content">
           <div class="grid">
-            <h2 class="title title--projects" >Projets</h2>
-            <div class="grid__inside" >
+            <h2 class="title title--projects" data-aos=fade-up>Projets</h2>
+            <div class="grid__inside" data-aos=fade-up>
               <div class="losange">
                 <div class="losange__container">
                   <div class="losange__container__inside losange__container__inside--chibiakihabara">
@@ -162,7 +162,7 @@
               </div>
             </div>
             
-            <div class="grid__inside grid__inside--three-items" >
+            <div class="grid__inside grid__inside--three-items" data-aos=fade-up>
               <div class="losange">
                 <div class="losange__container">
                   <div class="losange__container__inside osange__container__inside--killtilt">
@@ -231,7 +231,7 @@
               </div>
             </div>
 
-            <div class="grid__inside" >
+            <div class="grid__inside" data-aos=fade-up>
               <div class="losange">
                 <div class="losange__container">
                   <div class="losange__container__inside losange__container__inside--anadore">
@@ -319,23 +319,23 @@
 
   <section class="about js-page" id="three">
     <div class="about__content">
-      <div class="about__img" >
+      <div class="about__img" data-aos="fade-up">
         <div class="image-element">
           <img class="hidden-nohover" src="https://media.giphy.com/media/12NUbkX6p4xOO4/giphy.gif" alt="magic">
           <img class="hidden-hover" src="/img/photo.jpg" alt="">
         </div>
       </div>
       <div class="about__text">
-        <h2 class="about__title title" >A propos</h2>
-        <p class="text text--big" >Hey (<a href="https://www.youtube.com/watch?v=KN1WlLVoHSQ" target"_blank">listen</a>),</p>
-        <p class="text text--large" >Je suis une développeuse front-end parisienne avec 2 années d'expérience professionnelle.</p>
-        <p class="text" >
+        <h2 class="about__title title" data-aos=fade-up>A propos</h2>
+        <p class="text text--big" data-aos=fade-up>Hey (<a href="https://www.youtube.com/watch?v=KN1WlLVoHSQ" target"_blank">listen</a>),</p>
+        <p class="text text--large" data-aos=fade-up>Je suis une développeuse front-end parisienne avec 2 années d'expérience professionnelle.</p>
+        <p class="text" data-aos=fade-up>
             Je m'appelle Lolita Grasset et suis âgée de 25 ans. J'ai validé l'année dernière une formation en alternance de "Développeur multimédia" à l'école Multimédia. Je travaillais en parallèle au sein d'une agence web du nom d'<a href="http://www.anadore.fr/" title="anadore" target="_blank">Anadore</a>. Ils sont à la base de d'un événement de social networking nommé "Les rendez-vous de l'imaginaire" en partenariat avec Ulule. 
         </p>
-        <p class="text" >
+        <p class="text" data-aos=fade-up>
             Je travaille actuellement pour l'entreprise Fastmag mais souhaite <a href="https://www.youtube.com/watch?v=rOPoP4YWgmk" target="_blank">élargir mes horizons</a>. <span class="bold">Je recherche ainsi un CDI au sein d'une agence web</span> afin de continuer d'y développer mes compétences et surtout pouvoir échanger et apprendre plus encore aux côtés de collègues passionnés ( je sais me rendre sympathique avec des pancakes à la banane ).
         </p>
-        <p class="text" >
+        <p class="text" data-aos=fade-up>
             N'hésitez pas à jeter un oeil à mon <a href="/img/Grasset-Lolita.pdf">CV</a> et m'envoyer un <a href="mailto:grassetlolita@live.fr">mail</a> si mon profil vous intéresse ou si vous souhaitez simplement me dire coucou.
         </p>
         
