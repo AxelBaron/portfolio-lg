@@ -14,9 +14,7 @@
     align-items: flex-start;
     background-size: 300%;
     margin-left: 0;
-    padding: 40px 10px 50px;
-    background: url(../img/bg-bottom.svg) center bottom 50px no-repeat,
-    url(../img/4017.jpg) repeat top center /cover;
+    padding: 40px 10px 10px;
 
   }
   @include respond-to('medium'){
@@ -64,7 +62,7 @@
 
     @include respond-to('small'){
       @include size(150px);      
-      margin-top: 50px;
+      margin-top: 40px;
     }
     @include respond-to('large'){
       display: none;
