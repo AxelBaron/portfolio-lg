@@ -59,7 +59,7 @@
 
   &__img {
     @include size(148px);
-    margin: 50px 0;
+    margin: 40px 0 50px;
     order: 2;
 
     @include respond-to('small'){
