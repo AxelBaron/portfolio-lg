@@ -319,7 +319,7 @@
 
   <section class="about js-page" id="three">
     <div class="about__content">
-      <div class="about__img" data-aos="fade-up">
+      <div class="about__img" data-aos=fade-up>
         <div class="image-element">
           <img class="hidden-nohover" src="https://media.giphy.com/media/12NUbkX6p4xOO4/giphy.gif" alt="magic">
           <img class="hidden-hover" src="/img/photo.jpg" alt="">
@@ -340,6 +340,39 @@
         </p>
         
       </div><!--/.about__text-->
+      <div class="icons icons--bottom">
+      <div class="icons__list">
+        <p class="line">
+          <a href="https://www.linkedin.com/in/lolita-grasset-a66781b3/" target="_blank" class="icon icon--linkedin" title="Linkedin">
+            <span class="icon__inside">
+              <i class="fa fa-linkedin" aria-hidden="true"></i>
+            </span>
+          </a>
+          <a href="https://codepen.io/Skyz0fraise/" target="_blank" class="icon icon--codepen" title="Codepen">
+            <span class="icon__inside">
+              <i class="fa fa-codepen" aria-hidden="true"></i>
+            </span>
+          </a>
+          <a href="https://github.com/Skyzofraise" target="_blank" class="icon icon--github" title="github">
+            <span class="icon__inside">
+              <i class="fa fa-github" aria-hidden="true"></i>
+            </span>
+          </a>
+        </p>
+        <p class="line">
+          <a href="https://www.dropbox.com/s/00vfvcblnq73eet/CV-lastone.pdf?dl=0" target="_blank" class="icon icon--cv" title="CV">
+            <span class="icon__inside">
+              <i class="fa fa-id-card-o" aria-hidden="true"></i>
+            </span>
+          </a>
+          <a href="#" class="icon icon--mail" title="Contactez-moi<3">
+            <span class="icon__inside">
+              <i class="fa fa-envelope" aria-hidden="true"></i>
+            </span>
+          </a>
+        </p>        
+      </div><!--/.icons__list-->
+    </div><!--/.icons-->
     </div><!--/.about__content-->
   </section>
 </div>

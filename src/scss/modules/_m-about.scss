@@ -3,11 +3,11 @@
 .about {
   display: flex;
   height: auto;
-  background: url(../img/bg-bottom.svg) center bottom -50px no-repeat,
+  background: url(../img/bg-bottom.svg) center bottom 0px no-repeat,
   url(../img/4017.jpg) repeat top center /cover;
   background-size: 300%;
   margin-left: 0;
-  padding: 40px 10px 100px;
+  padding: 40px 10px 0px;
 
   @include respond-to('small'){
     height: auto;
@@ -15,7 +15,7 @@
     background-size: 300%;
     margin-left: 0;
     padding: 40px 10px 50px;
-    background: url(../img/bg-bottom.svg) center bottom -50px no-repeat,
+    background: url(../img/bg-bottom.svg) center bottom 50px no-repeat,
     url(../img/4017.jpg) repeat top center /cover;
 
   }
@@ -24,6 +24,8 @@
     align-items: flex-start;
     background-size: 150%;
     margin-left: 160px;
+    background: url(../img/bg-bottom.svg) center bottom -50px no-repeat,
+    url(../img/4017.jpg) repeat top center /cover;
   }
   @include respond-to('large'){
     height: 100vh;
