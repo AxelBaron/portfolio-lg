@@ -68,7 +68,7 @@
               <i class="fa fa-id-card-o" aria-hidden="true"></i>
             </span>
           </a>
-          <a href="#" class="icon icon--mail" title="Contactez-moi<3">
+          <a href="mailto:grassetlolita@live.fr" class="icon icon--mail" title="Contactez-moi<3">
             <span class="icon__inside">
               <i class="fa fa-envelope" aria-hidden="true"></i>
             </span>
@@ -95,7 +95,7 @@
               <i class="fa fa-id-card-o" aria-hidden="true"></i>
             </span>
           </a>
-          <a href="#" class="icon icon--big icon--mail" title="Contactez-moi<3">
+          <a href="mailto:grassetlolita@live.fr" class="icon icon--big icon--mail" title="Contactez-moi<3">
             <span class="icon__inside">
               <i class="fa fa-envelope" aria-hidden="true"></i>
             </span>
@@ -167,7 +167,7 @@
                 <div class="losange__container">
                   <div class="losange__container__inside osange__container__inside--killtilt">
                     <div class="losange__container__inside__side losange__container__inside__side--face">
-                      <img src="img/kt.png" alt="" class="image">
+                      <img src="img/KT.png" alt="" class="image">
                     </div>
                     <div class="losange__container__inside__side losange__container__inside__side--back">
                     </div>
@@ -365,7 +365,7 @@
               <i class="fa fa-id-card-o" aria-hidden="true"></i>
             </span>
           </a>
-          <a href="#" class="icon icon--mail" title="Contactez-moi<3">
+          <a href="mailto:grassetlolita@live.fr" class="icon icon--mail" title="Contactez-moi<3">
             <span class="icon__inside">
               <i class="fa fa-envelope" aria-hidden="true"></i>
             </span>

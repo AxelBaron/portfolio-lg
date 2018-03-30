@@ -21,7 +21,7 @@
             app.closeModal();
 
             var larg = (window.innerWidth);
-            if( larg > 1200 ){
+            if( larg >= 1220 ){
                 /* Smartscroll external library */
                 var options = {
                     mode: "vp", // "vp", "set"
@@ -136,7 +136,7 @@
         // Fonction qui permet de désactiver le scroll en slide par slide en-dessous de 1200px
         resize: function(){
             var larg = (window.innerWidth);
-            if( larg < 1200 ){
+            if( larg > 1220 ){
                 /* Smartscroll external library */
                 var options = {
                     mode: "vp", // "vp", "set"
@@ -165,6 +165,7 @@
     $(window).scroll(function(){
         app.active();
     });
+
     $(window).resize(function(){
         app.resize();
     });
