@@ -330,10 +330,10 @@
         <p class="text text--big" data-aos=fade-up>Hey (<a href="https://www.youtube.com/watch?v=KN1WlLVoHSQ" target"_blank">listen</a>),</p>
         <p class="text text--large" data-aos=fade-up>Je suis une développeuse front-end parisienne avec 2 années d'expérience professionnelle.</p>
         <p class="text" data-aos=fade-up>
-            Je m'appelle Lolita Grasset et suis âgée de 25 ans. J'ai validé l'année dernière une formation en alternance de "Développeur multimédia" à l'école Multimédia. Je travaillais en parallèle au sein d'une agence web du nom d'<a href="http://www.anadore.fr/" title="anadore" target="_blank">Anadore</a>. Ils sont à la base de d'un événement de social networking nommé "Les rendez-vous de l'imaginaire" en partenariat avec Ulule. 
+            Je m'appelle Lolita Grasset et suis âgée de 25 ans. J'ai validé l'année dernière une formation en alternance de "Développeur multimédia" à l'école Multimédia. Je travaillais en parallèle au sein d'une agence web geek du nom d'<a href="http://www.anadore.fr/" title="anadore" target="_blank">Anadore</a>qui est à la base d'un événement de social networking nommé "<a href="http://www.rdvi.net/" target="_blank">Les rendez-vous de l'imaginaire</a>" en partenariat avec Ulule. 
         </p>
         <p class="text" data-aos=fade-up>
-            Je travaille actuellement pour l'entreprise Fastmag mais souhaite <a href="https://www.youtube.com/watch?v=rOPoP4YWgmk" target="_blank">élargir mes horizons</a>. <span class="bold">Je recherche ainsi un CDI au sein d'une agence web</span> afin de continuer d'y développer mes compétences et surtout pouvoir échanger et apprendre plus encore aux côtés de collègues passionnés ( je sais me rendre sympathique avec des pancakes à la banane ).
+            Je travaille actuellement pour l'entreprise Fastmag mais souhaite <a href="https://www.youtube.com/watch?v=rOPoP4YWgmk" target="_blank">élargir mes horizons</a>. <span class="bold">Je recherche ainsi un CDI au sein d'une agence web</span> afin de continuer d'y développer mes compétences et surtout pouvoir échanger et apprendre plus encore aux côtés de collègues passionnés (je sais me rendre sympathique avec des pancakes à la banane).
         </p>
         <p class="text" data-aos=fade-up>
             N'hésitez pas à jeter un oeil à mon <a href="/img/Grasset-Lolita.pdf">CV</a> et m'envoyer un <a href="mailto:grassetlolita@live.fr">mail</a> si mon profil vous intéresse ou si vous souhaitez simplement me dire coucou.
