@@ -150,7 +150,7 @@
                 </div>
                 <div class="losange__text">
                   <h3 class="losange__text__title" >
-                    <a class="losange__text__title__link" href="http://lolitagrasset.com/RioDelVin/" target="_blank" title="site rio del vin">Rio del Vin</a>
+                    <a class="losange__text__title__link" href="http://grassetlolita.com/RioDelVin/" target="_blank" title="site rio del vin">Rio del Vin</a>
                   </h3>
                   <h4 class="losange__text__subtitle">Site vitrine</h4>
                   <p class="losange__text__description">Intégration web / Dev. front 
@@ -180,7 +180,7 @@
                   <p class="losange__text__description">Inté / dev. back Wordpress 
                     <span class="losange__text__description__container">
                       <a class="losange__text__description__container__link" href="https://www.behance.net/gallery/40336865/Kill-Tilt-Site-Communautaire" title="voir sur behance" target="_blank">behance</a>/
-                      <a class="losange__text__description__container__link" href="https://www.kill-tilt.fr/" title="site Kill Tilt target="_blank">site</a>
+                      <a class="losange__text__description__container__link" href="https://www.kill-tilt.fr/" title="site Kill Tilt" target="_blank">site</a>
                     </span>
                   </p>
                 </div>
